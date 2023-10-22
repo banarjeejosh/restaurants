@@ -4,6 +4,9 @@ import React, { useState, useRef, useEffect, useCallback } from "react";
 import { gsap } from "gsap";
 import { FunctionComponent } from "react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Background from "./component/Background";
+import Link from "next/link";
+import BottomNav from "./component/BottomNav";
 gsap.registerPlugin(ScrollTrigger);
 
 // types
@@ -13,57 +16,57 @@ interface MenuItem {
   image: string;
   link: string;
   itemsCount: number;
-  color?: string;
+  color: string;
 }
 // restruant menu items
 const menuItems: MenuItem[] = [
   {
     id: "1",
-    name: "Burger",
+    name: `Burger <span class="text-base">&</span> Sliders`,
     image: "/burger.png",
     link: "/burger",
     itemsCount: 10,
-    color: "red",
+    color: "#FDE3E6",
   },
   {
     id: "2",
     name: "Pizza",
-    image: "/burger.png",
+    image: "/pizza.png",
     link: "/pizza",
     itemsCount: 10,
-    color: "blue",
+    color: "#FEEFDA",
   },
   {
     id: "3",
     name: "Ice Cream",
-    image: "/burger.png",
+    image: "/cake.png",
     link: "/ice-cream",
     itemsCount: 10,
-    color: "green",
+    color: "#DADFF9",
   },
   {
     id: "4",
     name: "Drinks",
-    image: "/burger.png",
+    image: "/nacho.png",
     link: "/drinks",
     itemsCount: 3,
-    color: "yellow",
+    color: "#FDE3E6",
   },
   {
     id: "5",
-    name: "Drinks",
-    image: "/burger.png",
+    name: "Coffee",
+    image: "/panipuri.png",
     link: "/drinks",
     itemsCount: 5,
-    color: "purple",
+    color: "#FEEFDA",
   },
   {
     id: "6",
-    name: "Drinks",
-    image: "/burger.png",
+    name: "Lemonade",
+    image: "/fish.png",
     link: "/drinks",
     itemsCount: 10,
-    color: "pink",
+    color: "#DADFF9",
   },
 ];
 
@@ -125,46 +128,38 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div style={{ overflow: "hidden", position: "relative", width: "900px" }}>
-      {" "}
-      {/* Adjust the wrapper width as needed */}
-      <div
-        ref={containerRef}
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          willChange: "transform",
-          position: "relative",
-        }}
-      >
-        {itemsWithClones.map((item, index) => (
-          <div key={index} style={{ minWidth: `${ITEM_WIDTH}px` }}>
-            <div style={{ backgroundColor: item.color, padding: "20px" }}>
+    <main className="relative">
+      {itemsWithClones.map((item, index) => (
+        <div key={index} className=" flex justify-center items-center align-middle p-20">
+          <div className=" relative">
+
+            <Background className="w-full " fillColor={item.color} />
+
+            <div className="z-[2] absolute h-full w-full top-0  flex flex-col justify-center items-center align-middle gap-4">
+
               <Image
                 src={item.image}
-                width={200}
+                width={400}
                 height={200}
-                alt={item.name}
+                alt="burger"
+                className="scale-x-125"
               />
-              <h2>{item.name}</h2>
-              <p>{`${item.itemsCount} items`}</p>
+              <h2 className="text-3xl" dangerouslySetInnerHTML={{ __html: item.name }}></h2>
+              <p className="text-xs opacity-50">{item.itemsCount} items</p>
+              <Link href="/burger" className=" font-bold text-lg px-4  bg-white rounded-3xl" style={{ color: item.color }}>
+                View
+              </Link>
             </div>
           </div>
-        ))}
+        </div>
+      ))}
+      <div className="relative flex justify-center align-middle items-center">
+        <BottomNav fillColor="#FDE3E6" />
+        <div className="w-4 h-4 rounded-full ring-4 ring-white absolute top-4"></div>
       </div>
-      <button
-        onClick={handlePrevClick}
-        style={{ position: "absolute", top: "50%", left: "0", zIndex: 2 }}
-      >
-        Prev
-      </button>
-      <button
-        onClick={handleNextClick}
-        style={{ position: "absolute", top: "50%", right: "0", zIndex: 2 }}
-      >
-        Next
-      </button>
-    </div>
+    </main>
+
+
   );
 };
 
