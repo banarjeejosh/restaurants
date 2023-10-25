@@ -112,6 +112,7 @@ const HomePage: React.FC = () => {
           width={50}
           height={50}
           alt="logo"
+          className="pointer-events-none"
         />
         <div className=" flex flex-row align-text-bottom items-end">
           <h1 className="text-[36.931px] sm:text-[55.542px] pl-10">Let&rsquo;s  eat</h1>

@@ -26,7 +26,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
             width={400}
             height={200}
             alt="burger"
-            className="scale-x-125"
+            className="scale-x-125 pointer-events-none"
           />
           <h2 className="text-3xl" dangerouslySetInnerHTML={{ __html: item.name }}></h2>
           <p className="text-xs opacity-50">{item.itemsCount} items</p>
