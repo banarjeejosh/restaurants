@@ -5,8 +5,9 @@ interface Item {
   name: string;
   image: string;
   link: string;
-  itemsCount: number;
+  itemsCount?: number;
   color: string;
+  paragraph?: string;
 }
 interface MenuItemProps {
   item: Item;
@@ -17,7 +18,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
     <>
       <div className=" relative">
 
-        <Background className="w-full " fillColor={item.color} />
+        <Background className="w-full z-[1]" fillColor={item.color} />
 
         <div className="z-[2] absolute h-full w-full top-0  flex flex-col justify-center items-center align-middle gap-4">
 
@@ -29,8 +30,13 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
             className="scale-x-125 pointer-events-none"
           />
           <h2 className="text-3xl" dangerouslySetInnerHTML={{ __html: item.name }}></h2>
-          <p className="text-xs opacity-50">{item.itemsCount} items</p>
-          <Link href="/burger" className=" font-bold text-lg px-4  bg-white rounded-3xl" style={{ color: item.color }}>
+          {
+            item.paragraph && <p className="text-xs opacity-50">{item.paragraph}</p>
+          }
+          {
+            item.itemsCount && <p className="text-xs opacity-50">{item.itemsCount} items</p>
+          }
+          <Link href={item.link} className=" font-bold text-lg px-4  bg-white rounded-3xl" style={{ color: item.color }}>
             View
           </Link>
         </div>
