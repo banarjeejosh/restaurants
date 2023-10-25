@@ -114,6 +114,7 @@ const TesPage = () => {
           path: circlePath,
           align: circlePath,
           alignOrigin: [0.5, 0.5],
+          autoRotate: true,
           end: (i: number) => gsap.utils.wrap(0, 1, i / items.length + 0.75),
         },
         scale: 0.9,

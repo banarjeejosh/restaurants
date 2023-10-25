@@ -1,0 +1,42 @@
+/* styles/HalfCircleCarousel.module.css */
+
+.carouselContainer {
+    width: 600px;
+    height: 300px;
+    position: relative;
+    margin: 100px auto 0;
+    perspective: 1200px;
+  }
+  
+  .carouselItem {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform-origin: center 250px;
+    cursor: pointer;
+    opacity: 0.3;
+  }
+  
+  .carouselItem:nth-child(3) {
+    opacity: 1;
+  }
+  
+  .carouselItem:nth-child(2),
+  .carouselItem:nth-child(4) {
+    opacity: 0.7;
+  }
+  
+  .carouselItem:nth-child(1),
+  .carouselItem:nth-child(5) {
+    opacity: 0.5;
+  }
+  

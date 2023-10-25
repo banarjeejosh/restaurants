@@ -1,0 +1,28 @@
+/* styles/RotatingCarousel.module.css */
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100px; /* Adjust as needed */
+    height: 250px; /* Adjust based on item height and number of items */
+    overflow: hidden; /* Hide the non-visible items */
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carouselItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Or whatever suits your design */
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #f3f3f3; /* Or any other neutral color */
+    margin-bottom: 5px; /* Optional: for spacing */
+  }
+  
+  .activeItem {
+    background-color: #e0e0e0; /* Highlight the active/selected item. Adjust color as needed. */
+  }
+  
