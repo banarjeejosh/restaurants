@@ -1,3 +1,4 @@
+"use client"
 import React, { useRef, useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import styles from "./HalfCircleCarousel.module.css";
