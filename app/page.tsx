@@ -1,166 +1,146 @@
 "use client";
+// import React, { useLayoutEffect, useRef } from "react";
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+// import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+
+// gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(MotionPathPlugin as any);
+
+// const MotionPathPage: React.FC = () => {
+//   // starter code for gsap
+//   const container = useRef<HTMLDivElement>(null);
+//   const CircleSvg = useRef<SVGSVGElement>(null); // we only need a ref for the root-level element of this component so we can use selector text for everything else.
+//   const holder = useRef(null);
+//   //   let circlePath: SVGPathElement;
+//   const tl = useRef();
+
+//   useLayoutEffect(() => {
+//     const ctx = gsap.context((self) => {
+//       const circlePath = MotionPathPlugin.convertToPath("#holder", false)[0];
+//       circlePath.id = "circlePath";
+
+//       CircleSvg.current?.prepend(circlePath);
+
+//       let items: HTMLElement[] = gsap.utils.toArray<HTMLElement>(".menuBox"),
+//         numItems: number = items.length,
+//         itemStep: number = 1 / numItems,
+//         wrapProgress = gsap.utils.wrap(0, 1),
+//         snap = gsap.utils.snap(itemStep),
+//         wrapTracker = gsap.utils.wrap(0, numItems),
+//         tracker = { item: 0 };
+
+//       const endValue = (i: number) =>
+//         gsap.utils.wrap(0, 1, i / items.length + 0.75);
+//       gsap.set(items, {
+//         motionPath: {
+//           path: circlePath,
+//           align: circlePath,
+//           alignOrigin: [0.5, 0.5],
+//           autoRotate: true,
+//           //   end: [0.5, 0.5],
+//           start: endValue,
+//         },
+//         scale: 0.9,
+//       });
+//     }, container); // <- Scope!
+//     return () => ctx.revert(); // <- Cleanup!
+//   }, []);
+
+//   return (
+//     <div ref={container}>
+//       <div className="flex justify-center align-middle items-center">
+//         <svg
+//           className="h-auto overflow-visible w-[800px]  "
+//           ref={CircleSvg}
+//           viewBox="0 0 300 300"
+//         >
+//           <circle
+//             id="holder"
+//             ref={holder}
+//             className="st0"
+//             cx="151"
+//             cy="151"
+//             r="150"
+//           />
+//         </svg>
+//       </div>
+//       <div>
+//         <div className="menuBox w-[200px] h-[500px] flex justify-center items-center align-middle bg-green-400 rounded-lg">
+//           innter div 1
+//         </div>
+//         <div className="menuBox w-[200px] h-[500px] flex justify-center items-center align-middle bg-red-400 rounded-lg">
+//           innter div 2
+//         </div>
+//         <div className="menuBox w-[200px] h-[500px] flex justify-center items-center align-middle bg-blue-400 rounded-lg">
+//           innter div 3
+//         </div>
+//         <div className="menuBox w-[200px] h-[500px] flex justify-center items-center align-middle bg-yellow-400 rounded-lg">
+//           innter div 4
+//         </div>
+//         <div className="menuBox w-[200px] h-[500px] flex justify-center items-center align-middle bg-gray-400 rounded-lg">
+//           innter div 5
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+// export default MotionPathPage;
+
+// pages/index.tsx
+import React from "react";
 import Image from "next/image";
-import React, { useState, useRef, useEffect, useCallback } from "react";
-import { gsap } from "gsap";
-import { FunctionComponent } from "react";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import Background from "./component/Background";
-import Link from "next/link";
-import BottomNav from "./component/BottomNav";
-gsap.registerPlugin(ScrollTrigger);
+import HalfCircleCarousel from "./component/HalfCircleCarousel";
 
-// types
-interface MenuItem {
-  id: string;
-  name: string;
-  image: string;
-  link: string;
-  itemsCount: number;
-  color: string;
-}
-// restruant menu items
-const menuItems: MenuItem[] = [
-  {
-    id: "1",
-    name: `Burger <span class="text-base">&</span> Sliders`,
-    image: "/burger.png",
-    link: "/burger",
-    itemsCount: 10,
-    color: "#FDE3E6",
-  },
-  {
-    id: "2",
-    name: "Pizza",
-    image: "/pizza.png",
-    link: "/pizza",
-    itemsCount: 10,
-    color: "#FEEFDA",
-  },
-  {
-    id: "3",
-    name: "Ice Cream",
-    image: "/cake.png",
-    link: "/ice-cream",
-    itemsCount: 10,
-    color: "#DADFF9",
-  },
-  {
-    id: "4",
-    name: "Drinks",
-    image: "/nacho.png",
-    link: "/drinks",
-    itemsCount: 3,
-    color: "#FDE3E6",
-  },
-  {
-    id: "5",
-    name: "Coffee",
-    image: "/panipuri.png",
-    link: "/drinks",
-    itemsCount: 5,
-    color: "#FEEFDA",
-  },
-  {
-    id: "6",
-    name: "Lemonade",
-    image: "/fish.png",
-    link: "/drinks",
-    itemsCount: 10,
-    color: "#DADFF9",
-  },
-];
-
-const Home: React.FC = () => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const ITEM_WIDTH = 300; // This should be the width of your item including any margin or padding
-  const CLONE_COUNT = 2; // Number of items to clone at the end and beginning
-
-  // Clone the first and last items to give the illusion of an infinite carousel
-  const itemsWithClones = [
-    ...menuItems.slice(-CLONE_COUNT),
-    ...menuItems,
-    ...menuItems.slice(0, CLONE_COUNT),
+const HomePage: React.FC = () => {
+  // The items you want to display in the carousel
+  const items = [
+    "Item 1",
+    "Item 2",
+    "Item 3",
+    "Item 4",
+    "Item 5",
+    "Item 6",
+    "Item 7",
   ];
 
-  // On mount, set the initial position to the first "real" item, not a clone
-  useEffect(() => {
-    if (containerRef.current) {
-      gsap.set(containerRef.current, {
-        x: -ITEM_WIDTH * CLONE_COUNT, // because we added CLONE_COUNT items before the real items
-      });
-    }
-  }, []);
-
-  const handleNextClick = () => {
-    if (containerRef.current) {
-      gsap.to(containerRef.current, {
-        x: "-=" + ITEM_WIDTH,
-        modifiers: {
-          x: (x) => {
-            // When we reach the end, loop back to the beginning seamlessly
-            const newX = parseFloat(x);
-            if (newX <= -ITEM_WIDTH * (menuItems.length + CLONE_COUNT)) {
-              return -ITEM_WIDTH * CLONE_COUNT + "px";
-            }
-            return x;
-          },
-        },
-      });
-    }
-  };
-
-  const handlePrevClick = () => {
-    if (containerRef.current) {
-      gsap.to(containerRef.current, {
-        x: "+=" + ITEM_WIDTH,
-        modifiers: {
-          x: (x) => {
-            // When we reach the beginning, loop back to the end seamlessly
-            const newX = parseFloat(x);
-            if (newX >= -ITEM_WIDTH) {
-              return -ITEM_WIDTH * menuItems.length + "px";
-            }
-            return x;
-          },
-        },
-      });
-    }
-  };
-
   return (
-    <main className="relative">
-      {itemsWithClones.map((item, index) => (
-        <div key={index} className=" flex justify-center items-center align-middle p-20">
-          <div className=" relative">
-
-            <Background className="w-full " fillColor={item.color} />
-
-            <div className="z-[2] absolute h-full w-full top-0  flex flex-col justify-center items-center align-middle gap-4">
-
-              <Image
-                src={item.image}
-                width={400}
-                height={200}
-                alt="burger"
-                className="scale-x-125"
-              />
-              <h2 className="text-3xl" dangerouslySetInnerHTML={{ __html: item.name }}></h2>
-              <p className="text-xs opacity-50">{item.itemsCount} items</p>
-              <Link href="/burger" className=" font-bold text-lg px-4  bg-white rounded-3xl" style={{ color: item.color }}>
-                View
-              </Link>
-            </div>
+    <div className="relative flex flex-col justify-between align-middle items-center min-h-screen">
+      <div className="flex flex-col justify-center align-middle items-center mt-10">
+        <Image
+          src="/logo.png"
+          width={50}
+          height={50}
+          alt="logo"
+          className="pointer-events-none"
+        />
+        <div className=" flex flex-row align-text-bottom items-end">
+          <h1 className="text-[36.931px] sm:text-[55.542px] pl-10">Let&rsquo;s  eat</h1>
+          <div className="flex mb-4 pl-2 gap-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+              <circle cx="5.58957" cy="5.5787" r="4.62851" fill="#FFEDD2" />
+            </svg><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+              <circle cx="5.44925" cy="5.5787" r="4.62851" fill="#FDDDE2" />
+            </svg><svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+              <circle cx="5.30929" cy="5.5787" r="4.62851" fill="#CFD5F9" />
+            </svg>
           </div>
         </div>
-      ))}
-      <div className="relative flex justify-center align-middle items-center">
-        <BottomNav fillColor="#FDE3E6" />
-        <div className="w-4 h-4 rounded-full ring-4 ring-white absolute top-4"></div>
+
       </div>
-    </main>
 
-
+      {/* Other components */}
+      {/* height: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+} */}
+      <div className="  w-full overflow-hidden h-[600px] md:h-[750px] flex justify-end align-baseline items-end ">
+        <HalfCircleCarousel />
+      </div>
+      {/* Other components */}
+    </div>
   );
 };
 
-export default Home;
+export default HomePage;
