@@ -1,12 +1,14 @@
-import React from "react";
 import Image from "next/image";
-import HalfCircleCarousel from "./component/HalfCircleCarousel";
+import React from "react";
+import CircleComponent from "../component/CircleComponent";
+import { Fooditems } from "@/data/data";
+export default function Page({ params }: { params: { food: string } }) {
+  return <div>My Post: {params.food}</div>;
 
-const HomePage: React.FC = () => {
-  // The items you want to display in the carousel
+  const items = Fooditems[params.food as keyof typeof Fooditems];
 
   return (
-    <div className="relative flex flex-col justify-between align-middle items-center">
+    <div className="relative flex flex-col justify-between align-middle items-center min-h-screen">
       <div className="flex flex-col justify-center align-middle items-center mt-10">
         <Image
           src="/logo.png"
@@ -51,12 +53,10 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
-      <div className="screenSize w-full overflow-hidden flex justify-end align-baseline items-end ">
-        <HalfCircleCarousel />
+      <div className="  w-full overflow-hidden h-[60vh] md:h-[77vh] flex justify-end align-baseline items-end ">
+        <CircleComponent items={items} />
       </div>
       {/* Other components */}
     </div>
   );
-};
-
-export default HomePage;
+}

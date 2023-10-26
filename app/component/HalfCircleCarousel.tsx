@@ -1,5 +1,5 @@
 // HalfCircleCarousel.tsx
-"use client"
+"use client";
 import React from "react";
 
 import MenuItem from "./MenuItem";
@@ -28,7 +28,7 @@ const items: MenuItem[] = [
     id: "2",
     name: "Pizza",
     image: "/pizza.png",
-    link: "/",
+    link: "/pizza",
     itemsCount: 10,
     color: "#FEEFDA",
   },
@@ -66,12 +66,8 @@ const items: MenuItem[] = [
   },
 ];
 
-
 function HalfCircleCarousel() {
-
-  return (
-    <CircleComponent items={items} />
-  );
+  return <CircleComponent items={items} />;
 }
 
 export default HalfCircleCarousel;
