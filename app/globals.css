@@ -17,35 +17,56 @@
 }
 
 /* Default styles for non-mobile devices */
-.screenSize {
+/* .screenSize {
   height: 79vh;
   max-height: -webkit-fill-available;
 }
 @media (max-height: 1400px) {
-  /* Mobile styles */
   .screenSize {
     height: 71vh;
   }
   
 }
 @media (max-height: 1200px) {
-  /* Mobile styles */
   .screenSize {
     height: 83vh;
   }
   
 }
 @media (max-height: 360px) {
-  /* Mobile styles */
   .screenSize {
     height: 77vh;
   }
   
+} */
+.mainPage {
+  min-height: 100vh;
 }
-
-
-
-
+@media (min-height: 700px) {
+  .mainPage {
+    height: 100vh;
+  }
+  .screeFix {
+    scale: 0.9;
+  }
+}
+@media (min-height: 1024px) {
+  .mainPage {
+    height: 100vh;
+  }
+  .screeFix {
+    scale: 1.5;
+  }
+}
+@media (max-height: 700px) {
+  .mainPage {
+    min-height: 100vh;
+    height: auto;
+  }
+  .screenSize {
+    height: 600px;
+  }
+}
 .card {
   width: 300px;
   height: 300px;
@@ -81,13 +102,9 @@
   font-size: 24px;
 }
 
-
-
-
-
 .container {
   position: relative;
-  top:50%;
+  top: 50%;
   max-width: 100%;
   margin: auto;
   overflow: hidden;
@@ -126,10 +143,11 @@
   transform: translate(-50%,-50%);
 } */
 
-.st0 { fill: none;
-  stroke:#000000;
+.st0 {
+  fill: none;
+  stroke: #000000;
   stroke-width: 2;
-  stroke-miterlimit:1;
+  stroke-miterlimit: 1;
 }
 
 .start {
