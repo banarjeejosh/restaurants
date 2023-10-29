@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import CircleComponent from "../component/CircleComponent";
-import { Fooditems } from "@/data/data";
+import Fooditems from "@/data/data.json";
 export default function Page({ params }: { params: { food: string } }) {
-  return <div>My Post: {params.food}</div>;
-
-  const items = Fooditems[params.food as keyof typeof Fooditems];
+  // return <div>My Post: {params.food}</div>;
+  const food = params.food;
+  const items = Fooditems[food as keyof typeof Fooditems];
 
   return (
-    <div className="relative flex flex-col justify-between align-middle items-center min-h-screen">
+    <div className="relative flex flex-col justify-between align-middle items-center mainPage">
       <div className="flex flex-col justify-center align-middle items-center mt-10">
         <Image
           src="/logo.png"
@@ -53,7 +53,7 @@ export default function Page({ params }: { params: { food: string } }) {
         </div>
       </div>
 
-      <div className="  w-full overflow-hidden h-[60vh] md:h-[77vh] flex justify-end align-baseline items-end ">
+      <div className="screenSize w-full overflow-hidden flex grow justify-end align-baseline items-end ">
         <CircleComponent items={items} />
       </div>
       {/* Other components */}
