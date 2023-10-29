@@ -41,7 +41,7 @@
       "price": 4.5
     }
   ],
-  "onTheOven": [
+  "on_the_oven": [
     {
       "id": "1",
       "name": "Pizza Margherita",
@@ -296,7 +296,7 @@
     }
   ],
 
-  "hotDrinks": [
+  "hot_drinks": [
     {
       "id": "1",
       "name": "Expresso",
@@ -330,7 +330,7 @@
       "price": 3.7
     }
   ],
-  "coldDrinks": [
+  "cold_drinks": [
     {
       "id": "1",
       "name": "Latte",
@@ -356,7 +356,7 @@
       "price": 2.4
     }
   ],
-  "softDrinks": [
+  "soft_drinks": [
     {
       "id": "1",
       "name": "Coca Cola",
