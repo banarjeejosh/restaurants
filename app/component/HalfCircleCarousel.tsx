@@ -5,6 +5,7 @@ import React from "react";
 import MenuItem from "./MenuItem";
 
 import CircleComponent from "./CircleComponent";
+import HalfCircleCompThree from "./HalfCircleCompThree";
 
 interface MenuItem {
   id: string;
@@ -82,7 +83,7 @@ const items: MenuItem[] = [
     color: "#DADFF9",
   },
   {
-    id: "8",
+    id: "9",
     name: "Hot Drinks",
     image: "/fish.png",
     link: "/hotDrinks",
@@ -116,7 +117,9 @@ const items: MenuItem[] = [
 ];
 
 function HalfCircleCarousel() {
-  return <CircleComponent items={items} />;
+  // return <CircleComponent items={items} />;
+
+  return <HalfCircleCompThree items={items} />;
 }
 
 export default HalfCircleCarousel;

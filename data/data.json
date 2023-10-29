@@ -39,14 +39,6 @@
       "color": "#FEEFDA",
       "paragraph": "Crispy Shrimps, buffalo style wing sauce dipping, ranch",
       "price": 4.5
-    },
-    {
-      "id": "6",
-      "name": "Hot Stone Beef",
-      "image": "/Appetizers/Hot_Stone_Beef.png",
-      "color": "#FEEFDA",
-      "paragraph": "Rib eye, sesame ginger dip",
-      "price": 5.7
     }
   ],
   "onTheOven": [
@@ -73,14 +65,6 @@
       "color": "#FEEFDA",
       "paragraph": "Italian Tomato Sauce, Cheese, Peproni, Beef Bacon, Chilli Corn Carne",
       "price": 3.8
-    },
-    {
-      "id": "4",
-      "name": "Pizza Margherita",
-      "image": "",
-      "color": "#FEEFDA",
-      "paragraph": "Italian tomato sauce, Cheese, Olive oil, Basil",
-      "price": 2
     }
   ],
   "soups": [
@@ -100,16 +84,9 @@
       "paragraph": "Fresh mushrooms, cream, Truffles",
       "price": 4.3
     },
+
     {
       "id": "3",
-      "name": "Tom Yum Soup",
-      "image": "/Soups/Tom_Yum_Soup.png",
-      "color": "#FEEFDA",
-      "paragraph": "Thai hot sour sea food soup",
-      "price": 4.8
-    },
-    {
-      "id": "4",
       "name": "De l'italie Soup",
       "image": "/Soups/De_l'italie_Soup.png",
       "color": "#FEEFDA",
@@ -266,16 +243,9 @@
       "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
       "price": 6.2
     },
+
     {
       "id": "3",
-      "name": "Cilantro Chicken Salad",
-      "image": "",
-      "color": "#FEEFDA",
-      "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
-      "price": 3.6
-    },
-    {
-      "id": "4",
       "name": "Halloumi Quinoa Salad",
       "image": "",
       "color": "#FEEFDA",
@@ -323,14 +293,6 @@
       "color": "#FEEFDA",
       "paragraph": "Chocolate peanut ice cream topped on a chocolate vanilla ice cream sandwich served with Belgium chocolate sauce",
       "price": 6.1
-    },
-    {
-      "id": "6",
-      "name": "Lotus Kunafa",
-      "image": "/Desserts/Lotus_Kunafa.png",
-      "color": "#FEEFDA",
-      "paragraph": "Creamy lotus cheese cake with hint of raspberry semifredo coated in crunchy kunafa served with warm lotus sauce",
-      "price": 4.2
     }
   ],
 
@@ -392,20 +354,12 @@
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 2.4
-    },
-    {
-      "id": "4",
-      "name": "Latte",
-      "image": "/Cold_Drinks/Latte.png",
-      "color": "#FEEFDA",
-      "paragraph": " ",
-      "price": 2.8
     }
   ],
   "softDrinks": [
     {
       "id": "1",
-      "name": " Coca Cola",
+      "name": "Coca Cola",
       "image": "/Soft drinks/Coca_Cola.png",
       "color": "#FEEFDA",
       "paragraph": " ",
