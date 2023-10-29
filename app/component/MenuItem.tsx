@@ -9,6 +9,7 @@ interface Item {
   color: string;
   paragraph?: string;
   grm?: number;
+  price?: number;
 }
 interface MenuItemProps {
   item: Item;
@@ -53,6 +54,14 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
               style={{ color: item.color }}
             >
               {item.grm} GRM
+            </p>
+          )}
+          {item.price && (
+            <p
+              className=" font-bold text-lg px-4  bg-white rounded-3xl"
+              style={{ color: item.color }}
+            >
+              {item.price}$
             </p>
           )}
         </div>

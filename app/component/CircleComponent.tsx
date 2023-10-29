@@ -7,6 +7,7 @@ import CirclePointer from "./CirclePointer";
 import BottomNav from "./BottomNav";
 
 const CircleComponent = ({ items }: any) => {
+  console.log(items);
   const [centerIndex, setCenterIndex] = useState(0);
   const [animationQueue, setAnimationQueue] = useState<number[]>([]);
 
