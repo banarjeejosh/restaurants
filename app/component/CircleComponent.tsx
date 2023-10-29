@@ -28,100 +28,28 @@ const CircleComponent = ({ items }: any) => {
       );
     }
   };
-
-  //   const handleClick = (index: any) => {
-  //     const diffClockwise = (index - centerIndex + items.length) % items.length;
-  //     const diffCounterClockwise = items.length - diffClockwise;
-
-  //     if (diffClockwise <= diffCounterClockwise) {
-  //       setCenterIndex(index);
-  //     } else {
-  //       setCenterIndex(index);
-  //     }
-  //   };
-  //   const handleClick = (index: number) => {
-  //     // Calculate the distance and direction to the clicked item.
-  //     const totalItems = items.length;
-  //     let moveBy = index - centerIndex;
-
-  //     // Adjusting if it's shorter to continue in the same direction
-  //     if (Math.abs(moveBy) > totalItems / 2) {
-  //       moveBy = moveBy - Math.sign(moveBy) * totalItems;
-  //     }
-
-  //     // Splitting the movement across multiple animation frames to create a smooth transition
-  //     const direction = moveBy < 0 ? "right" : "left"; // Determine the direction to move
-  //     const steps = Math.abs(moveBy); // Determine how many steps to take
-
-  //     const moveOneStep = () => {
-  //       // Update the centerIndex by one step in the correct direction
-  //       handleSwipe(direction);
-
-  //       if (steps > 1) {
-  //         requestAnimationFrame(moveOneStep); // Continue moving until we reach the desired item
-  //       }
-  //     };
-
-  //     moveOneStep(); // Start moving
-  //   };
-  //   const handleClick = (index: number) => {
-  //     const totalItems = items.length;
-
-  //     // Calculate the shortest distance to the target item
-  //     let stepsToMove = index - centerIndex;
-  //     if (Math.abs(stepsToMove) > totalItems / 2) {
-  //       stepsToMove = stepsToMove - Math.sign(stepsToMove) * totalItems;
-  //     }
-
-  //     // Set the new center index, considering the carousel's circular nature
-  //     const newIndex = (centerIndex + stepsToMove + totalItems) % totalItems;
-  //     setCenterIndex(newIndex);
-  //   };
-  //   const handleClick = (index: number) => {
-  //     const totalItems = items.length;
-
-  //     // Current position can be calculated directly from the center index.
-  //     let currentPosition = centerIndex;
-
-  //     // Calculate steps to move forward or backward.
-  //     let forwardSteps = (index - currentPosition + totalItems) % totalItems;
-  //     let backwardSteps = (currentPosition - index + totalItems) % totalItems;
-  //     debugger;
-  //     // If moving forward is a shorter path (or equal, to prefer forward movement)
-  //     if (forwardSteps <= backwardSteps) {
-  //       // Here, we calculate the new index by moving forward.
-  //       setCenterIndex((currentPosition + forwardSteps) % totalItems);
-  //     } else {
-  //       // Otherwise, we calculate the new index by moving backward.
-  //       setCenterIndex(
-  //         (currentPosition - backwardSteps + totalItems) % totalItems
-  //       );
-  //     }
-  //   };
   const handleClick = (index: number) => {
-    const totalItems = items.length;
+    if (items.length <= 1) return; // No need to handle click for one item
 
-    // Calculate the distance in both directions
+    const totalItems = items.length;
     const forwardSteps = (index - centerIndex + totalItems) % totalItems;
     const backwardSteps = (centerIndex - index + totalItems) % totalItems;
+    // const forwardSteps = 2;
+    // const backwardSteps = 1;
 
-    // Determine the shortest direction and the steps to move
     const moveForward = forwardSteps <= backwardSteps;
     const stepsToMove = moveForward ? forwardSteps : backwardSteps;
-
-    // Determine the step size (-1 for backward, 1 for forward)
+    // const stepSize = moveForward ? 1 : -1;
     const stepSize = moveForward ? 1 : -1;
 
-    // Create an array representing each step of the animation
-    // Each element is the next index the carousel should show
     const newQueue = Array.from({ length: stepsToMove }, (_, i) => {
-      const nextStep = centerIndex + stepSize * (i + 1); // Calculate the next step
-      return (nextStep + totalItems) % totalItems; // Ensure the next step wraps around correctly
+      const nextStep = centerIndex + stepSize * (i + 1);
+      return (nextStep + totalItems) % totalItems; // Ensuring we don't go out of bounds
     });
 
-    // Set the animation queue with the newly created steps array
     setAnimationQueue(newQueue);
   };
+
   const handlePointerDown = (event: any) => {
     initialX.current = event.clientX;
   };
@@ -142,16 +70,61 @@ const CircleComponent = ({ items }: any) => {
     initialX.current = null;
   };
 
+  //   const getVisibleItems = () => {
+  //     const visibleItems = [];
+
+  //     if (items.length === 1) {
+  //       return [items[0]]; // If only one item, it's the only one visible
+  //     }
+
+  //     const totalVisibleItems = items.length < 5 ? items.length : 5; // Do not attempt to show more items than exist
+  //     const halfWay = Math.floor(totalVisibleItems / 2);
+
+  //     for (let i = -halfWay; i <= halfWay; i++) {
+  //       const currentIndex = (centerIndex + i + items.length) % items.length;
+  //       visibleItems.push(items[currentIndex]);
+  //     }
+  //     return visibleItems;
+  //   };
+
   const getVisibleItems = () => {
     const visibleItems = [];
-    for (let i = -2; i <= 2; i++) {
-      const currentIndex = (centerIndex + i + items.length) % items.length;
-      visibleItems.push(items[currentIndex]);
+    if (items.length >= 5) {
+      const totalVisibleItems = items.length < 5 ? items.length : 5; // Do not attempt to show more items than exist
+      const halfWay = Math.floor(totalVisibleItems / 2);
+
+      for (let i = -halfWay; i <= halfWay; i++) {
+        const currentIndex = (centerIndex + i + items.length) % items.length;
+        visibleItems.push(items[currentIndex]);
+      }
+      return visibleItems;
     }
+
+    // Special handling for fewer than 5 items.
+    const totalItems = items.length;
+    const emptySlots = 5 - totalItems; // Number of missing items to make 5
+
+    for (let i = 0; i < totalItems; i++) {
+      visibleItems.push(items[i]);
+    }
+
+    // If there are fewer than 5 items, we adjust the positions without repeating the items.
+    for (let i = 0; i < emptySlots; i++) {
+      visibleItems.push(null); // Push placeholders to maintain the structure
+    }
+
     return visibleItems;
   };
 
   const activeItem = items[centerIndex]; // Identify the active card/menu item
+
+  // New function to calculate the degree of rotation
+  const calculateRotationDegree = (totalItems: number, index: number) => {
+    // Calculate the degree based on the total visible items
+    const degreePerItem = 180 / (totalItems - 1); // Distribute items in 180 degrees
+    return degreePerItem * index - 90; // Shift by -90 to start from the left
+  };
+
   useEffect(() => {
     if (animationQueue.length === 0) return;
 
@@ -176,29 +149,134 @@ const CircleComponent = ({ items }: any) => {
       {...handlers}
     >
       <div className="flex justify-center items-center align-middle">
-        {getVisibleItems().map((item, index) => (
-          <div
-            key={item.id}
-            className={styles.carouselItem}
-            style={{
-              transform: `rotate(${(index - 2) * 36}deg) translateY(-150px)`,
-              backgroundColor: "transparent",
-              opacity: index === 2 ? 1 : index === 1 || index === 3 ? 0.7 : 0.5,
-              zIndex: index === 2 ? 3 : index === 1 || index === 3 ? 2 : 1,
-            }}
-            onClick={() =>
-              handleClick(
-                (centerIndex + index - 2 + items.length) % items.length
-              )
-            }
-          >
-            <div className="flex flex-col justify-center align-middle items-center">
-              <MenuItem item={item} />
+        {getVisibleItems().map((item, index) => {
+          if (items.length === 1) {
+            return (
+              <div
+                key={item.id}
+                className={styles.carouselItem}
+                style={{
+                  transform: ` translateY(-150px)`,
+                  backgroundColor: "transparent",
+                  opacity: 1,
+                  zIndex: 1,
+                }}
+                onClick={() =>
+                  handleClick(
+                    (centerIndex + index - 2 + items.length) % items.length
+                  )
+                }
+              >
+                <div className="flex flex-col justify-center align-middle items-center">
+                  <MenuItem item={item} />
 
-              <CirclePointer fillColor={item.color} />
+                  <CirclePointer fillColor={item.color} />
+                </div>
+              </div>
+            );
+          } else if (items.length <= 3 && items.length > 1) {
+            const totalVisibleItems = getVisibleItems().length;
+
+            const rotationDegree = calculateRotationDegree(
+              totalVisibleItems,
+              index
+            );
+
+            return (
+              <div
+                key={item.id}
+                className={styles.carouselItem}
+                style={{
+                  transform: `rotate(${rotationDegree}deg) translateY(-150px)`,
+                  backgroundColor: "transparent",
+                  opacity:
+                    index === Math.floor(totalVisibleItems / 2) ? 1 : 0.7, // adjust as needed
+                  zIndex: index === Math.floor(totalVisibleItems / 2) ? 3 : 2, // adjust as needed
+                }}
+                onClick={() =>
+                  handleClick(
+                    (centerIndex +
+                      index -
+                      Math.floor(totalVisibleItems / 2) +
+                      items.length) %
+                      items.length
+                  )
+                }
+              >
+                <div className="flex flex-col justify-center align-middle items-center">
+                  <MenuItem item={item} />
+
+                  <CirclePointer fillColor={item.color} />
+                </div>
+              </div>
+            );
+          } else if (items.length <= 5 && items.length > 3) {
+            return (
+              <div
+                key={item.id}
+                className={styles.carouselItem}
+                style={{
+                  transform: `rotate(${
+                    (index - 2) * 36
+                  }deg) translateY(-150px)`,
+                  backgroundColor: "transparent",
+                  opacity:
+                    index === 2
+                      ? 1
+                      : index === 1 || index === 3
+                      ? 0.7
+                      : index === 0 || index === 4
+                      ? 0.5
+                      : 0,
+                  zIndex:
+                    index === 2
+                      ? 3
+                      : index === 1 || index === 3
+                      ? 2
+                      : index === 0 || index === 4
+                      ? 1
+                      : 0,
+                }}
+                onClick={() =>
+                  handleClick(
+                    (centerIndex + index - 2 + items.length) % items.length
+                  )
+                }
+              >
+                <div className="flex flex-col justify-center align-middle items-center">
+                  <MenuItem item={item} />
+
+                  <CirclePointer fillColor={item.color} />
+                </div>
+              </div>
+            );
+          }
+          return (
+            <div
+              key={item.id}
+              className={styles.carouselItem}
+              style={{
+                transform: `rotate(${(index - 2) * 36}deg) translateY(-150px)`,
+                backgroundColor: "transparent",
+                opacity:
+                  index === 2 ? 1 : index === 1 || index === 3 ? 0.7 : 0.5,
+                zIndex: index === 2 ? 3 : index === 1 || index === 3 ? 2 : 1,
+              }}
+              onClick={() =>
+                handleClick(
+                  (centerIndex + index - 2 + items.length) % items.length
+                )
+              }
+            >
+              <div className="flex flex-col justify-center align-middle items-center">
+                <MenuItem item={item} />
+
+                <CirclePointer fillColor={item.color} />
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
+
         <BottomNav fillColor={activeItem.color} />
       </div>
     </div>
