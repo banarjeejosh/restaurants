@@ -26,7 +26,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
             src={item.image}
             width={300}
             height={100}
-            alt="burger"
+            alt={item.name}
             className="scale-x-125 pointer-events-none"
           />
           <h2
