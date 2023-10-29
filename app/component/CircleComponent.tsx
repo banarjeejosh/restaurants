@@ -7,7 +7,6 @@ import CirclePointer from "./CirclePointer";
 import BottomNav from "./BottomNav";
 
 const CircleComponent = ({ items }: any) => {
-  console.log(items);
   const [centerIndex, setCenterIndex] = useState(0);
   const [animationQueue, setAnimationQueue] = useState<number[]>([]);
 
@@ -225,9 +224,6 @@ const CircleComponent = ({ items }: any) => {
               </div>
             );
           } else if (items.length <= 5 && items.length > 3) {
-            console.log(
-              (centerIndex + index - 2 + items.length) % items.length
-            );
             return (
               <div
                 key={item.id}
