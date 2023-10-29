@@ -23,11 +23,11 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
 
         <div className="z-[2] absolute h-full w-full top-0  flex flex-col justify-center items-center align-middle gap-4 text-center">
           <Image
-            src={item.image}
-            width={300}
-            height={100}
-            alt={item.name}
-            className="scale-x-125 pointer-events-none"
+            src={item.image === "" ? "/placeholder.png" : item.image}
+            width={200}
+            height={200}
+            alt={item.image === "" ? "placeholder food" : item.name}
+            className="pointer-events-none"
           />
           <h2
             className="text-3xl max-w-[250px]"

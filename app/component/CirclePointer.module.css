@@ -1,0 +1,9 @@
+.pointerPosition{
+    position:absolute;
+    bottom: -340px;
+}
+@media (min-width: 600px){
+    .pointerPosition {
+        bottom: -100px;
+    }
+  }

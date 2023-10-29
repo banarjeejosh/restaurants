@@ -53,7 +53,7 @@
     {
       "id": "1",
       "name": "Pizza Margherita",
-      "image": "/On_The_Oven/Pizza_Margherita.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Italian tomato sauce, Cheese, Olive oil, Basil",
       "price": 2
@@ -61,7 +61,7 @@
     {
       "id": "2",
       "name": "Pizza Buffalo Chicken",
-      "image": "/On_The_Oven/Pizza _Buffalo_Chicken.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "In house Ranch, Cheese,Buffalo Chicken, Hot Sauce, Onion",
       "price": 2.6
@@ -69,7 +69,7 @@
     {
       "id": "3",
       "name": "Pizza La Roma",
-      "image": "/On_The_Oven/Pizza_La_Roma.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Italian Tomato Sauce, Cheese, Peproni, Beef Bacon, Chilli Corn Carne",
       "price": 3.8
@@ -77,7 +77,7 @@
     {
       "id": "4",
       "name": "Pizza Margherita",
-      "image": "/On_The_Oven/Pizza_Margherita.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Italian tomato sauce, Cheese, Olive oil, Basil",
       "price": 2
@@ -153,7 +153,7 @@
     {
       "id": "5",
       "name": "Arabic Grill",
-      "image": "/Mains/Arabic_Grill.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "2 Skewers of Chicken / Beef Kebab / Angus Beef / Hummus / Salad",
       "price": 6.8
@@ -161,7 +161,7 @@
     {
       "id": "6",
       "name": "Risotto with Rib",
-      "image": "/Mains/Risotto_with_Rib.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Braised short Rib, Mushroom, Truffle, Risotto",
       "price": 6.4
@@ -169,7 +169,7 @@
     {
       "id": "7",
       "name": "Short Rib Plate",
-      "image": "/Mains/Short_Rib_Plate.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Braised Short Rib, Cola sauce, Root Veg",
       "price": 5.9
@@ -185,7 +185,7 @@
     {
       "id": "9",
       "name": "Vibez Biryani",
-      "image": "/Mains/Vibez_Biryani.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Biryani Rice, Marinated Chicken, Indian Spices, Special Sauce",
       "price": 4.9
@@ -203,7 +203,7 @@
     {
       "id": "2",
       "name": "Short Rib Fries",
-      "image": "/Fries/Short_Rib_Fries.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Fries, Cheese, Secret Sauce, Braised Rib, Fried Onion",
       "price": 3.6
@@ -253,7 +253,7 @@
     {
       "id": "1",
       "name": "Cilantro Chicken Salad",
-      "image": "/Salads/Cilantro_Chicken_Salad.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
       "price": 3.6
@@ -261,7 +261,7 @@
     {
       "id": "2",
       "name": "Halloumi Quinoa Salad",
-      "image": "/Salads/Halloumi_Quinoa_Salad.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
       "price": 6.2
@@ -269,7 +269,7 @@
     {
       "id": "3",
       "name": "Cilantro Chicken Salad",
-      "image": "/Salads/Cilantro_Chicken_Salad.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
       "price": 3.6
@@ -277,7 +277,7 @@
     {
       "id": "4",
       "name": "Halloumi Quinoa Salad",
-      "image": "/Salads/Halloumi_Quinoa_Salad.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
       "price": 6.2
@@ -303,7 +303,7 @@
     {
       "id": "3",
       "name": "Classic French Toast",
-      "image": "/Desserts/Classic_French_Toast.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "2 slices of home made brioche served with mix berry compote and honey. Fresh fruits on side",
       "price": 4.4
@@ -338,7 +338,7 @@
     {
       "id": "1",
       "name": "Expresso",
-      "image": "/Hot_Drinks/Expresso.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 1.4
@@ -346,7 +346,7 @@
     {
       "id": "2",
       "name": "Americano",
-      "image": "/Hot_Drinks/_.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 1.6
@@ -354,7 +354,7 @@
     {
       "id": "3",
       "name": "Piccolo",
-      "image": "/Hot_Drinks/_.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 1.9
@@ -362,7 +362,7 @@
     {
       "id": "4",
       "name": "Arabic Coffee",
-      "image": "/Hot_Drinks/_.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 3.7
@@ -372,7 +372,7 @@
     {
       "id": "1",
       "name": "Latte",
-      "image": "/Cold_Drinks/Latte.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 2.8
@@ -380,7 +380,7 @@
     {
       "id": "2",
       "name": "Cold Americano",
-      "image": "/Cold_Drinks/Cold_Americano.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 1.6
@@ -388,7 +388,7 @@
     {
       "id": "3",
       "name": "Flat white",
-      "image": "/Cold_Drinks/Flat_white.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 2.4
@@ -454,7 +454,7 @@
     {
       "id": "7",
       "name": "Premium Water",
-      "image": "/Soft drinks/Premium Water.png",
+      "image": "/Soft drinks/Premium_Water.png",
       "color": "#FEEFDA",
       "paragraph": " ",
       "price": 1.2
@@ -480,7 +480,7 @@
     {
       "id": "3",
       "name": "7 Vibez Summer",
-      "image": "/Mocktails/7_Vibez_Summer.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "A concoction of orange, pineapple topped with soda",
       "price": 3.7
@@ -496,7 +496,7 @@
     {
       "id": "5",
       "name": "Mangonada",
-      "image": "/Mocktails/Mangonada.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Mango juice ,pineapple and coconut",
       "price": 2.4
@@ -512,7 +512,7 @@
     {
       "id": "7",
       "name": "Fresh Orange Juice",
-      "image": "/Mocktails/Fresh_Orange_Juice.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Fresh Orange Juice",
       "price": 2.2
@@ -520,7 +520,7 @@
     {
       "id": "8",
       "name": "Passion Mojito",
-      "image": "/Mocktails/Passion_Mojito.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Passion, mint ,lemon and soda.",
       "price": 2.9
@@ -528,7 +528,7 @@
     {
       "id": "9",
       "name": "Strawberry Mojito",
-      "image": "/Mocktails/Strawberry_Mojito.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "Strawberry ,mint ,lemon and soda",
       "price": 2.9
@@ -536,7 +536,7 @@
     {
       "id": "10",
       "name": "Mint Mojito",
-      "image": "/Mocktails/Mint_Mojito.png",
+      "image": "",
       "color": "#FEEFDA",
       "paragraph": "mint ,lemon and soda.",
       "price": 1.9
