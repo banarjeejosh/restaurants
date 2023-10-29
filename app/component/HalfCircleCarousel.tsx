@@ -17,14 +17,14 @@ interface MenuItem {
 }
 // restruant menu items
 const items: MenuItem[] = [
-  {
-    id: "3",
-    name: `Burger <span class="text-base">&</span> Sliders`,
-    image: "/burger.png",
-    link: "/burger",
-    itemsCount: 9,
-    color: "#FEEFDA",
-  },
+  // {
+  //   id: "3",
+  //   name: `Burger <span class="text-base">&</span> Sliders`,
+  //   image: "/burger.png",
+  //   link: "/burger",
+  //   itemsCount: 9,
+  //   color: "#FEEFDA",
+  // },
   {
     id: "1",
     name: `Appetizers`,

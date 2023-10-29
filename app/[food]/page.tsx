@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import CircleComponent from "../component/CircleComponent";
 import Fooditems from "@/data/data.json";
+import Link from "next/link";
 export default function Page({ params }: { params: { food: string } }) {
   // return <div>My Post: {params.food}</div>;
   const food = params.food;
@@ -9,7 +10,7 @@ export default function Page({ params }: { params: { food: string } }) {
 
   return (
     <div className="relative flex flex-col justify-between align-middle items-center mainPage">
-      <div className="flex flex-col justify-center align-middle items-center mt-10">
+      <div className=" flex flex-col justify-center align-middle items-center mt-10">
         <Image
           src="/logo.png"
           width={50}
@@ -51,6 +52,14 @@ export default function Page({ params }: { params: { food: string } }) {
             </svg>
           </div>
         </div>
+        <Link href="/" className=" absolute left-4 top-16">
+          <Image
+            src={"/backbutton.svg"}
+            height={100}
+            width={100}
+            alt="go back"
+          />
+        </Link>
       </div>
 
       <div className="screenSize w-full overflow-hidden flex grow justify-end align-baseline items-end ">

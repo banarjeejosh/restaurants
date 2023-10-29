@@ -10,7 +10,7 @@ const CirclePointer: React.FC<circlePointerProps> = ({
   className,
 }) => {
   return (
-    <div className="absolute bottom-[-340px] lg:bottom-[-340px]">
+    <div className="absolute bottom-[-301px] md:bottom-[-340px]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="14"

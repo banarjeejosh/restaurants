@@ -27,7 +27,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
             width={200}
             height={200}
             alt={item.image === "" ? "placeholder food" : item.name}
-            className="pointer-events-none"
+            className="pointer-events-none mb-16 scale-[1.8]"
           />
           <h2
             className="text-3xl max-w-[250px]"
