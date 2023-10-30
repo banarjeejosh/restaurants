@@ -52,7 +52,10 @@ export default function Page({ params }: { params: { food: string } }) {
             </svg>
           </div>
         </div>
-        <Link href="/" className=" absolute left-4 top-16">
+        <Link
+          href="/"
+          className=" absolute left-1 lg:left-4 lg:top-16 scale-50 lg:scale-1"
+        >
           <Image
             src={"/backbutton.svg"}
             height={100}

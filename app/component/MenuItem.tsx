@@ -61,7 +61,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
               className=" font-bold text-lg px-4  bg-white rounded-3xl"
               style={{ color: item.color }}
             >
-              {item.price}
+              {item.price} Rial
             </p>
           )}
         </div>

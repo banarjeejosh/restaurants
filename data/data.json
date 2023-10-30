@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Hot Stone Beef",
       "image": "/Appetizers/Hot_Stone_Beef.png",
-      "color": "#FEEFDA",
+      "color": "#FDE3E6",
       "paragraph": "Rib eye, sesame ginger dip",
       "price": 5.7
     },
@@ -12,7 +12,7 @@
       "id": "2",
       "name": "Chicken Morsels",
       "image": "/Appetizers/Chicken_Morsels.png",
-      "color": "#FEEFDA",
+      "color": "#FDE3E6",
       "paragraph": "Boneless crispy Chicken, asian BBQ, chipotle ranch",
       "price": 3.6
     },
@@ -20,7 +20,7 @@
       "id": "3",
       "name": "Buffalo Chicken Bites",
       "image": "/Appetizers/Buffalo_Chicken_Bites.png",
-      "color": "#FEEFDA",
+      "color": "#FDE3E6",
       "paragraph": "Boneless crispy Chicken, buffalo style wing sauce dipping, ranch",
       "price": 4.6
     },
@@ -28,7 +28,7 @@
       "id": "4",
       "name": "Japanese Ebi",
       "image": "/Appetizers/Japanese_Ebi.png",
-      "color": "#FEEFDA",
+      "color": "#FDE3E6",
       "paragraph": "Crispy Shrimps, Tempura, Spicy Sauce",
       "price": 4.7
     },
@@ -36,7 +36,7 @@
       "id": "5",
       "name": "Buffalo Shrimps",
       "image": "/Appetizers/Buffalo_Shrimps.png",
-      "color": "#FEEFDA",
+      "color": "#FDE3E6",
       "paragraph": "Crispy Shrimps, buffalo style wing sauce dipping, ranch",
       "price": 4.5
     }
@@ -46,7 +46,7 @@
       "id": "1",
       "name": "Pizza Margherita",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#D7DCF9",
       "paragraph": "Italian tomato sauce, Cheese, Olive oil, Basil",
       "price": 2
     },
@@ -54,7 +54,7 @@
       "id": "2",
       "name": "Pizza Buffalo Chicken",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#D7DCF9",
       "paragraph": "In house Ranch, Cheese,Buffalo Chicken, Hot Sauce, Onion",
       "price": 2.6
     },
@@ -62,7 +62,7 @@
       "id": "3",
       "name": "Pizza La Roma",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#D7DCF9",
       "paragraph": "Italian Tomato Sauce, Cheese, Peproni, Beef Bacon, Chilli Corn Carne",
       "price": 3.8
     }
@@ -72,7 +72,7 @@
       "id": "1",
       "name": "Tom Yum Soup",
       "image": "/Soups/Tom_Yum_Soup.png",
-      "color": "#FEEFDA",
+      "color": "#FDE5E8",
       "paragraph": "Thai hot sour sea food soup",
       "price": 4.8
     },
@@ -80,7 +80,7 @@
       "id": "2",
       "name": "De l'italie Soup",
       "image": "/Soups/De_l'italie_Soup.png",
-      "color": "#FEEFDA",
+      "color": "#FDE5E8",
       "paragraph": "Fresh mushrooms, cream, Truffles",
       "price": 4.3
     },
@@ -89,7 +89,7 @@
       "id": "3",
       "name": "De l'italie Soup",
       "image": "/Soups/De_l'italie_Soup.png",
-      "color": "#FEEFDA",
+      "color": "#FDE5E8",
       "paragraph": "Fresh mushrooms, cream, Truffles",
       "price": 4.3
     }
@@ -99,7 +99,7 @@
       "id": "1",
       "name": "Baked Penne",
       "image": "/Mains/Baked_Penne.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "penne, crispy chicken, mozarella, parmesan, Mushrooms",
       "price": 6.2
     },
@@ -107,7 +107,7 @@
       "id": "2",
       "name": "Shrimp Risotto",
       "image": "/Mains/Shrimp_Risotto.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Risotto, chipotle cream sauce, Grilled shrimpsh",
       "price": 5.3
     },
@@ -115,7 +115,7 @@
       "id": "3",
       "name": "Grilled Chicken",
       "image": "/Mains/Grilled_Chicken.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Grilled chicken, mushroom Sauce, truffle mash",
       "price": 5.2
     },
@@ -123,7 +123,7 @@
       "id": "4",
       "name": "Truffle Fettuccine",
       "image": "/Mains/Truffle_Fettuccine.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "fettuccine, fresh cream sauce, mushrooms",
       "price": 6.7
     },
@@ -131,7 +131,7 @@
       "id": "5",
       "name": "Arabic Grill",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "2 Skewers of Chicken / Beef Kebab / Angus Beef / Hummus / Salad",
       "price": 6.8
     },
@@ -139,7 +139,7 @@
       "id": "6",
       "name": "Risotto with Rib",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Braised short Rib, Mushroom, Truffle, Risotto",
       "price": 6.4
     },
@@ -147,7 +147,7 @@
       "id": "7",
       "name": "Short Rib Plate",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Braised Short Rib, Cola sauce, Root Veg",
       "price": 5.9
     },
@@ -155,7 +155,7 @@
       "id": "8",
       "name": "Chicken Risotto",
       "image": "/Mains/Chicken_Risotto.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Risotto, pink sauce, crispy chicken",
       "price": 4.2
     },
@@ -163,7 +163,7 @@
       "id": "9",
       "name": "Vibez Biryani",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Biryani Rice, Marinated Chicken, Indian Spices, Special Sauce",
       "price": 4.9
     }
@@ -173,7 +173,7 @@
       "id": "1",
       "name": "Japanese Fashion Fries",
       "image": "/Fries/Japanese_Fashion_Fries.png",
-      "color": "#FEEFDA",
+      "color": "#FDE0E4",
       "paragraph": "Fries, Fresh cut sweet fries, sweet chili mayo, Tempura, unagi, nori",
       "price": 3.7
     },
@@ -181,7 +181,7 @@
       "id": "2",
       "name": "Short Rib Fries",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FDE0E4",
       "paragraph": "Fries, Cheese, Secret Sauce, Braised Rib, Fried Onion",
       "price": 3.6
     },
@@ -189,7 +189,7 @@
       "id": "3",
       "name": "French Fries",
       "image": "/Fries/French_Fries.png",
-      "color": "#FEEFDA",
+      "color": "#FDE0E4",
       "paragraph": "Fries served with house sauce.",
       "price": 1.8
     },
@@ -197,7 +197,7 @@
       "id": "4",
       "name": "Loaded Chicken Fries",
       "image": "/Fries/Loaded_Chicken_Fries.png",
-      "color": "#FEEFDA",
+      "color": "#FDE0E4",
       "paragraph": "Fries, cheese, dynamite sauce, jalapeno, crispy onions",
       "price": 3.95
     },
@@ -205,7 +205,7 @@
       "id": "5",
       "name": "Truffle Parmesan Fries",
       "image": "/Fries/Truffle_Parmesan_Fries.png",
-      "color": "#FEEFDA",
+      "color": "#FDE0E4",
       "paragraph": "French fries with a hint of truffle oil often served with grated parmesan, parsley, and a bit of salt.",
       "price": 1.95
     },
@@ -213,7 +213,7 @@
       "id": "6",
       "name": "Dynamite Beef Fries",
       "image": "/Fries/Dynamite_Beef_Fries.png",
-      "color": "#FEEFDA",
+      "color": "#FDE0E4",
       "paragraph": "Fries, cheese, dynamite sauce, jalapeno, crispy onions",
       "price": 3.6
     },
@@ -221,7 +221,7 @@
       "id": "7",
       "name": "Sweet Potato Fries",
       "image": "/Fries/Sweet_Potato_Fries.png",
-      "color": "#FEEFDA",
+      "color": "#FDE0E4",
       "paragraph": "Slices of sweet potatoes, fried with oil, sprinkled with spices.",
       "price": 1.95
     }
@@ -231,7 +231,7 @@
       "id": "1",
       "name": "Cilantro Chicken Salad",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DADFF9",
       "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
       "price": 3.6
     },
@@ -239,7 +239,7 @@
       "id": "2",
       "name": "Halloumi Quinoa Salad",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DADFF9",
       "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
       "price": 6.2
     },
@@ -248,7 +248,7 @@
       "id": "3",
       "name": "Halloumi Quinoa Salad",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DADFF9",
       "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
       "price": 6.2
     }
@@ -258,7 +258,7 @@
       "id": "1",
       "name": "Lotus Kunafa",
       "image": "/Desserts/Lotus_Kunafa.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Creamy lotus cheese cake with hint of raspberry semifredo coated in crunchy kunafa served with warm lotus sauce",
       "price": 4.2
     },
@@ -266,7 +266,7 @@
       "id": "2",
       "name": " Date Cake",
       "image": "/Desserts/Date_Cake.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Sticky date cakes baked in toffee sauce topped with roasted pecan-nut ,served with vanilla beans gelato",
       "price": 3.9
     },
@@ -274,7 +274,7 @@
       "id": "3",
       "name": "Classic French Toast",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "2 slices of home made brioche served with mix berry compote and honey. Fresh fruits on side",
       "price": 4.4
     },
@@ -282,7 +282,7 @@
       "id": "4",
       "name": "Saffron Milk Cake",
       "image": "/Desserts/Saffron_Milk_Cake.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Overnight soaked saffron cake topped with fresh vanilla cream , served with fresh berries",
       "price": 3.4
     },
@@ -290,7 +290,7 @@
       "id": "5",
       "name": "Donut Chocolate Tower",
       "image": "/Desserts/Donut_Chocolate_Tower.png",
-      "color": "#FEEFDA",
+      "color": "#FFEDD2",
       "paragraph": "Chocolate peanut ice cream topped on a chocolate vanilla ice cream sandwich served with Belgium chocolate sauce",
       "price": 6.1
     }
@@ -301,7 +301,7 @@
       "id": "1",
       "name": "Expresso",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FDE7EA",
       "paragraph": " ",
       "price": 1.4
     },
@@ -309,7 +309,7 @@
       "id": "2",
       "name": "Americano",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FDE7EA",
       "paragraph": " ",
       "price": 1.6
     },
@@ -317,7 +317,7 @@
       "id": "3",
       "name": "Piccolo",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FDE7EA",
       "paragraph": " ",
       "price": 1.9
     },
@@ -325,7 +325,7 @@
       "id": "4",
       "name": "Arabic Coffee",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#FDE7EA",
       "paragraph": " ",
       "price": 3.7
     }
@@ -335,7 +335,7 @@
       "id": "1",
       "name": "Latte",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 2.8
     },
@@ -343,7 +343,7 @@
       "id": "2",
       "name": "Cold Americano",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 1.6
     },
@@ -351,7 +351,7 @@
       "id": "3",
       "name": "Flat white",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 2.4
     }
@@ -361,7 +361,7 @@
       "id": "1",
       "name": "Coca Cola",
       "image": "/Soft drinks/Coca_Cola.png",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 0.95
     },
@@ -369,7 +369,7 @@
       "id": "2",
       "name": "Coca Cola light",
       "image": "/Soft drinks/Coca_Cola_light.png",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 0.95
     },
@@ -377,7 +377,7 @@
       "id": "3",
       "name": "Sprite",
       "image": "/Soft drinks/Sprite.png",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 0.95
     },
@@ -385,7 +385,7 @@
       "id": "4",
       "name": "Fanta Orange",
       "image": "/Soft drinks/Fanta_Orange.png",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 0.95
     },
@@ -393,7 +393,7 @@
       "id": "5",
       "name": "Fanta Strawberry",
       "image": "/Soft drinks/Fanta_Strawberry.png",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 0.95
     },
@@ -401,7 +401,7 @@
       "id": "6",
       "name": "Sparkling Water",
       "image": "/Soft drinks/Sparkling_Water.png",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 0.95
     },
@@ -409,7 +409,7 @@
       "id": "7",
       "name": "Premium Water",
       "image": "/Soft drinks/Premium_Water.png",
-      "color": "#FEEFDA",
+      "color": "#E0E4F9",
       "paragraph": " ",
       "price": 1.2
     }
@@ -419,7 +419,7 @@
       "id": "1",
       "name": "Mint & Lemon Juice",
       "image": "/Mocktails/Mint_&_Lemon_Juice.png",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "Summer special mint and lemon juice",
       "price": 1.9
     },
@@ -427,7 +427,7 @@
       "id": "2",
       "name": "Passionly",
       "image": "/Mocktails/Passionly.png",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "A combination of passion fruit, peach juice and orange juice.",
       "price": 2.9
     },
@@ -435,7 +435,7 @@
       "id": "3",
       "name": "7 Vibez Summer",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "A concoction of orange, pineapple topped with soda",
       "price": 3.7
     },
@@ -443,7 +443,7 @@
       "id": "4",
       "name": "Fresh Watermelon Juice",
       "image": "/Mocktails/Fresh_Watermelon_Juice.png",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "Freshly squeezed water melon juice",
       "price": 2.8
     },
@@ -451,7 +451,7 @@
       "id": "5",
       "name": "Mangonada",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "Mango juice ,pineapple and coconut",
       "price": 2.4
     },
@@ -459,7 +459,7 @@
       "id": "6",
       "name": "Vibez Popsicle",
       "image": "/Mocktails/Vibez_Popsicle.png",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "Home made raspberry popsicle dipped in our refreshing lemon and raspberry infused mock-tail",
       "price": 3.7
     },
@@ -467,7 +467,7 @@
       "id": "7",
       "name": "Fresh Orange Juice",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "Fresh Orange Juice",
       "price": 2.2
     },
@@ -475,7 +475,7 @@
       "id": "8",
       "name": "Passion Mojito",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "Passion, mint ,lemon and soda.",
       "price": 2.9
     },
@@ -483,7 +483,7 @@
       "id": "9",
       "name": "Strawberry Mojito",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "Strawberry ,mint ,lemon and soda",
       "price": 2.9
     },
@@ -491,7 +491,7 @@
       "id": "10",
       "name": "Mint Mojito",
       "image": "",
-      "color": "#FEEFDA",
+      "color": "#DDE2F9",
       "paragraph": "mint ,lemon and soda.",
       "price": 1.9
     }
