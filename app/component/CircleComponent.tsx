@@ -195,7 +195,7 @@ const CircleComponent = ({ items: testItem }: any) => {
                 </div>
               </div>
             );
-          } else if (items.length <= 4 && items.length > 1) {
+          } else if (testItem.length <= 3 && testItem.length > 1) {
             if (item === null) return <></>;
             const totalVisibleItems = getVisibleItems().length;
 
