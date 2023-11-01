@@ -38,7 +38,7 @@ const items: MenuItem[] = [
     name: "On The Oven",
     image: "/on_the_oven.png",
     link: "/on_the_oven",
-    itemsCount: 10,
+    itemsCount: 3,
     color: "#FDE3E6",
   },
   {
@@ -47,7 +47,7 @@ const items: MenuItem[] = [
     name: `Soups`,
     image: "/soups.png",
     link: "/soups",
-    itemsCount: 9,
+    itemsCount: 2,
     color: "#FFEDD2",
   },
   {
@@ -55,7 +55,7 @@ const items: MenuItem[] = [
     name: "Mains",
     image: "/mains.png",
     link: "/mains",
-    itemsCount: 5,
+    itemsCount: 9,
     color: "#D7DCF9",
   },
   {

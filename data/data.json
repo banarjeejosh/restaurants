@@ -178,7 +178,7 @@
       "id": "1",
       "name": "Tom Yum Soup",
       "image": "/Soups/Tom_Yum_Soup.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": "Thai hot sour sea food soup",
       "price": 4.8
     },
@@ -186,7 +186,7 @@
       "id": "2",
       "name": "De l'italie Soup",
       "image": "/Soups/De_l'italie_Soup.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": "Fresh mushrooms, cream, Truffles",
       "price": 4.3
     }
@@ -196,7 +196,7 @@
       "id": "1",
       "name": "Baked Penne",
       "image": "/Mains/Baked_Penne.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "penne, crispy chicken, mozarella, parmesan, Mushrooms",
       "price": 6.2
     },
@@ -204,7 +204,7 @@
       "id": "2",
       "name": "Shrimp Risotto",
       "image": "/Mains/Shrimp_Risotto.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Risotto, chipotle cream sauce, Grilled shrimpsh",
       "price": 5.3
     },
@@ -212,7 +212,7 @@
       "id": "3",
       "name": "Grilled Chicken",
       "image": "/Mains/Grilled_Chicken.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Grilled chicken, mushroom Sauce, truffle mash",
       "price": 5.2
     },
@@ -220,7 +220,7 @@
       "id": "4",
       "name": "Truffle Fettuccine",
       "image": "/Mains/Truffle_Fettuccine.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "fettuccine, fresh cream sauce, mushrooms",
       "price": 6.7
     },
@@ -228,7 +228,7 @@
       "id": "5",
       "name": "Arabic Grill",
       "image": "/Mains/Arabic_Grill.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "2 Skewers of Chicken / Beef Kebab / Angus Beef / Hummus / Salad",
       "price": 6.8
     },
@@ -236,7 +236,7 @@
       "id": "6",
       "name": "Risotto with Rib",
       "image": "/Mains/Risotto_with_Rib.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Braised short Rib, Mushroom, Truffle, Risotto",
       "price": 6.4
     },
@@ -244,7 +244,7 @@
       "id": "7",
       "name": "Short Rib Plate",
       "image": "/Mains/Short_Rib_Plate.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Braised Short Rib, Cola sauce, Root Veg",
       "price": 5.9
     },
@@ -252,7 +252,7 @@
       "id": "8",
       "name": "Chicken Risotto",
       "image": "/Mains/Chicken_Risotto.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Risotto, pink sauce, crispy chicken",
       "price": 4.2
     },
@@ -260,7 +260,7 @@
       "id": "9",
       "name": "Vibez Biryani",
       "image": "/Mains/Vibez_Biryani.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Biryani Rice, Marinated Chicken, Indian Spices, Special Sauce",
       "price": 4.9
     }
