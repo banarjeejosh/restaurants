@@ -270,7 +270,7 @@
       "id": "1",
       "name": "Japanese Fashion Fries",
       "image": "/Fries/Japanese_Fashion_Fries.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Fries, Fresh cut sweet fries, sweet chili mayo, Tempura, unagi, nori",
       "price": 3.7
     },
@@ -278,7 +278,7 @@
       "id": "2",
       "name": "Short Rib Fries",
       "image": "",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Fries, Cheese, Secret Sauce, Braised Rib, Fried Onion",
       "price": 3.6
     },
@@ -286,7 +286,7 @@
       "id": "3",
       "name": "French Fries",
       "image": "/Fries/French_Fries.png",
-      "color": "#FDE0E4",
+      "color": "#FDE3E6",
       "paragraph": "Fries served with house sauce.",
       "price": 1.8
     },
@@ -294,7 +294,7 @@
       "id": "4",
       "name": "Loaded Chicken Fries",
       "image": "/Fries/Loaded_Chicken_Fries.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Fries, cheese, dynamite sauce, jalapeno, crispy onions",
       "price": 3.95
     },
@@ -302,7 +302,7 @@
       "id": "5",
       "name": "Truffle Parmesan Fries",
       "image": "/Fries/Truffle_Parmesan_Fries.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "French fries with a hint of truffle oil often served with grated parmesan, parsley, and a bit of salt.",
       "price": 1.95
     },
@@ -310,7 +310,7 @@
       "id": "6",
       "name": "Dynamite Beef Fries",
       "image": "/Fries/Dynamite_Beef_Fries.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Fries, cheese, dynamite sauce, jalapeno, crispy onions",
       "price": 3.6
     },
@@ -431,7 +431,7 @@
       "id": "2",
       "name": "Cold Americano",
       "image": "/Cold Drinks/Cold_Americano.png",      
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": " ",
       "price": 1.6
     },
@@ -439,7 +439,7 @@
       "id": "3",
       "name": "Flat white",
       "image": "/Cold Drinks/Flat_white.png",      
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": " ",
       "price": 2.4
     }
@@ -449,7 +449,7 @@
       "id": "1",
       "name": "Coca Cola",
       "image": "/Soft drinks/Coca_Cola.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 0.95
     },
@@ -457,7 +457,7 @@
       "id": "2",
       "name": "Coca Cola light",
       "image": "/Soft drinks/Coca_Cola_light.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 0.95
     },
@@ -465,7 +465,7 @@
       "id": "3",
       "name": "Sprite",
       "image": "/Soft drinks/sprite1.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 0.95
     },
@@ -473,7 +473,7 @@
       "id": "4",
       "name": "Fanta Orange",
       "image": "/Soft drinks/Fanta_Orange.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 0.95
     },
@@ -481,7 +481,7 @@
       "id": "5",
       "name": "Fanta Strawberry",
       "image": "/Soft drinks/Fanta_Strawberry.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 0.95
     },
@@ -489,7 +489,7 @@
       "id": "6",
       "name": "Sparkling Water",
       "image": "/Soft drinks/Sparkling_Water.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 0.95
     },
@@ -497,7 +497,7 @@
       "id": "7",
       "name": "Premium Water",
       "image": "/Soft drinks/Premium_Water.png",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 1.2
     }
@@ -507,7 +507,7 @@
       "id": "1",
       "name": "Mint & Lemon Juice",
       "image": "/Mocktails/Mint_&_Lemon_Juice.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Summer special mint and lemon juice",
       "price": 1.9
     },
@@ -515,7 +515,7 @@
       "id": "2",
       "name": "Passionly",
       "image": "/Mocktails/Passionly.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "A combination of passion fruit, peach juice and orange juice.",
       "price": 2.9
     },
@@ -523,7 +523,7 @@
       "id": "3",
       "name": "7 Vibez Summer",
       "image": "/Mocktails/7_Vibez_Summer.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "A concoction of orange, pineapple topped with soda",
       "price": 3.7
     },
@@ -531,7 +531,7 @@
       "id": "4",
       "name": "Fresh Watermelon Juice",
       "image": "/Mocktails/Fresh_Watermelon_Juice.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Freshly squeezed water melon juice",
       "price": 2.8
     },
@@ -539,7 +539,7 @@
       "id": "5",
       "name": "Mangonada",
       "image": "",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Mango juice ,pineapple and coconut",
       "price": 2.4
     },
@@ -547,7 +547,7 @@
       "id": "6",
       "name": "Vibez Popsicle",
       "image": "/Mocktails/Vibez_Popsicle.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Home made raspberry popsicle dipped in our refreshing lemon and raspberry infused mock-tail",
       "price": 3.7
     },
@@ -555,7 +555,7 @@
       "id": "7",
       "name": "Fresh Orange Juice",
       "image":  "/Mocktails/Fresh_Orange_Juice.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Fresh Orange Juice",
       "price": 2.2
     },
@@ -563,7 +563,7 @@
       "id": "8",
       "name": "Passion Mojito",
       "image": "",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Passion, mint ,lemon and soda.",
       "price": 2.9
     },
@@ -571,7 +571,7 @@
       "id": "9",
       "name": "Strawberry Mojito",
       "image": "",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Strawberry ,mint ,lemon and soda",
       "price": 2.9
     },
@@ -579,7 +579,7 @@
       "id": "10",
       "name": "Mint Mojito",
       "image": "",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "mint ,lemon and soda.",
       "price": 1.9
     }
