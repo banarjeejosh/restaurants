@@ -334,15 +334,6 @@
     },
     {
       "id": "2",
-      "name": "Halloumi Quinoa Salad",
-      "image": "/salads/Halloumi_Quinoa_Salad.png",
-      "color": "#E1C373",
-      "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
-      "price": 6.2
-    },
-
-    {
-      "id": "3",
       "name": "Cilantro Chicken Salad",
       "image": "/salads/placeholder.png",
       "color": "#E1C373",
