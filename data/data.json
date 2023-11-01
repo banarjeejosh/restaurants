@@ -110,7 +110,7 @@
       "id": "1",
       "name": "Hot Stone Beef",
       "image": "/Appetizers/Hot_Stone_Beef.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Rib eye, sesame ginger dip",
       "price": 5.7
     },
@@ -118,7 +118,7 @@
       "id": "2",
       "name": "Chicken Morsels",
       "image": "/Appetizers/Chicken_Morsels.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Boneless crispy Chicken, asian BBQ, chipotle ranch",
       "price": 3.6
     },
@@ -126,7 +126,7 @@
       "id": "3",
       "name": "Buffalo Chicken Bites",
       "image": "/Appetizers/Buffalo_Chicken_Bites.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Boneless crispy Chicken, buffalo style wing sauce dipping, ranch",
       "price": 4.6
     },
@@ -134,7 +134,7 @@
       "id": "4",
       "name": "Japanese Ebi",
       "image": "/Appetizers/Japanese_Ebi.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Crispy Shrimps, Tempura, Spicy Sauce",
       "price": 4.7
     },
@@ -142,7 +142,7 @@
       "id": "5",
       "name": "Buffalo Shrimps",
       "image": "/Appetizers/Buffalo_Shrimps.png",
-      "color": "#E1C373",
+      "color": "#D7DCF9",
       "paragraph": "Crispy Shrimps, buffalo style wing sauce dipping, ranch",
       "price": 4.5
     }
@@ -151,24 +151,24 @@
     {
       "id": "1",
       "name": "Pizza Margherita",
-      "image": "",
-      "color": "#E1C373",
+      "image": "/on_the_oven/on_the_oven.png",
+      "color": "#FDE3E6",
       "paragraph": "Italian tomato sauce, Cheese, Olive oil, Basil",
       "price": 2
     },
     {
       "id": "2",
       "name": "Pizza Buffalo Chicken",
-      "image": "",
-      "color": "#E1C373",
+      "image": "/on_the_oven/on_the_oven.png",
+      "color": "#FDE3E6",
       "paragraph": "In house Ranch, Cheese,Buffalo Chicken, Hot Sauce, Onion",
       "price": 2.6
     },
     {
       "id": "3",
       "name": "Pizza La Roma",
-      "image": "",
-      "color": "#E1C373",
+      "image": "/on_the_oven/on_the_oven.png",
+      "color": "#FDE3E6",
       "paragraph": "Italian Tomato Sauce, Cheese, Peproni, Beef Bacon, Chilli Corn Carne",
       "price": 3.8
     }
@@ -335,7 +335,7 @@
     {
       "id": "2",
       "name": "Cilantro Chicken Salad",
-      "image": "/salads/placeholder.png",
+      "image": "/salads/Cilantro_Chicken_Salad.png",
       "color": "#E1C373",
       "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
       "price": 3.6

@@ -30,7 +30,7 @@ const items: MenuItem[] = [
     name: `Appetizers`,
     image: "/appetizers.png",
     link: "/appetizers",
-    itemsCount: 10,
+    itemsCount: 5,
     color: "#D7DCF9",
   },
   {
