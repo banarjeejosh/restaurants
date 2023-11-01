@@ -2,24 +2,24 @@
 "burger": [
   {
     "id": "1",
-    "name": "Classic Chicken Burger",
-    "image": "/Burgers & sliders/Classic_Chicken_Burger.png",
-    "color": "#E1C373",
-    "paragraph": "Crispy chicken, american cheese, iceberg, pickle, mustard aioli",
-    "price": 2.4
-  },
-  {
-    "id": "2",
     "name": "Cheese Drama Beef Burger",
-    "image": "/Burgers & sliders/Cheese_Drama_Beef_Burger.png",
+    "image": "/Burgers/Cheese_Drama_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef patty / lettuce / tomato / served with cheese injection",
     "price": 2.4
   },
   {
+    "id": "2",
+    "name": "Classic Chicken Burger",
+    "image": "/Burgers/Classic_Chicken_Burger.png",
+    "color": "#E1C373",
+    "paragraph": "Crispy chicken, american cheese, iceberg, pickle, mustard aioli",
+    "price": 2.4
+  },
+  {
     "id": "3",
     "name": "Black Magic Beef Burger",
-    "image": "/Burgers & sliders/Black_Magic_Beef_Burger.png",
+    "image": "/Burgers/Black_Magic_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef, onion rings, jalapeno, mushrooms, american cheese, spicy dynamite sauce",
     "price": 2.4
@@ -27,7 +27,7 @@
   {
     "id": "4",
     "name": "Upside Down Beef Burger",
-    "image": "/Burgers & sliders/Upside_Down_Beef_Burger.png",
+    "image": "/Burgers/Upside_Down_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef,portobello,provolone,rosemary mushroom cream.",
     "price": 3.2
@@ -35,7 +35,7 @@
   {
     "id": "5",
     "name": "OG Beef Burger",
-    "image": "/Burgers & sliders/OG_Beef_Burger.png",
+    "image": "/Burgers/OG_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef, lollo verde, pickle, onion, house sauce, american cheese",
     "price": 2.4
@@ -43,7 +43,7 @@
   {
     "id": "6",
     "name": "Double Patty Beef Burger",
-    "image": "/Burgers & sliders/placeholder.png",
+    "image": "/Burgers/placeholder.png",
     "color": "#E1C373",
     "paragraph": "Cab Double Patty, Cheese, In house Sauce, Potato Bun",
     "price": 2.4
@@ -51,7 +51,7 @@
   {
     "id": "7",
     "name": "Nashville Chicken Burger",
-    "image": "/Burgers & sliders/Nashville_Chicken_Burger.png",
+    "image": "/Burgers/Nashville_Chicken_Burger.png",
     "color": "#E1C373",
     "paragraph": "NASHVILLE STYLE CHICKEN BURGER / pickle / lettuce / in house sauce",
     "price": 2.4
@@ -59,7 +59,7 @@
   {
     "id": "8",
     "name": "Cheese Beef Burger",
-    "image": "/Burgers & sliders/Cheese_Beef_Burger.png",
+    "image": "/Burgers/Cheese_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef, mozarella, american cheese, dynamite sauce",
     "price": 2.4
@@ -67,7 +67,7 @@
   {
     "id": "9",
     "name": "Red Hood Chicken Slider",
-    "image": "/Burgers & sliders/Red_Hood_Chicken_Slider.png",
+    "image": "/Burgers/Red_Hood_Chicken_Slider.png",
     "color": "#E1C373",
     "paragraph": "Crispy chicken, lollo verde, jalapeno, mushroom, pepper jack cheese, argentinian chimicchuri aioli",
     "price": 1.9
@@ -75,7 +75,7 @@
   {
     "id": "10",
     "name": "Short Rib Slider",
-    "image": "/Burgers & sliders/placeholder.png",
+    "image": "/Burgers/placeholder.png",
     "color": "#E1C373",
     "paragraph": "Pulled Rib, BBQ Sauce, Lettuce, Pickle",
     "price": 1.9
@@ -83,7 +83,7 @@
   {
     "id": "11",
     "name": "Classic Chicken Slider",
-    "image": "/Burgers & sliders/Classic_Chicken_Slider.png",
+    "image": "/Burgers/Classic_Chicken_Slider.png",
     "color": "#E1C373",
     "paragraph": "Crispy chicken, american cheese, iceberg, pickle, mustard aioli",
     "price": 1.9
@@ -91,7 +91,7 @@
   {
     "id": "12",
     "name": "Old School Beef Slider",
-    "image": "/Burgers & sliders/Old_School_Beef_Slider.png",
+    "image": "/Burgers/Old_School_Beef_Slider.png",
     "color": "#E1C373",
     "paragraph": "Grilled Beef, house sauce, white cheddar, onion rings",
     "price": 1.9
@@ -99,7 +99,7 @@
   {
     "id": "13",
     "name": "Classic Beef Slider",
-    "image": "/Burgers & sliders/Classic_Beef_Slider.png",
+    "image": "/Burgers/Classic_Beef_Slider.png",
     "color": "#E1C373",
     "paragraph": "Grilled Beef, iceberg, pickle, mustard onions, american cheese, house sauce",
     "price": 1.9
