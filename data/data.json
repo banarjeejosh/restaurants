@@ -422,15 +422,15 @@
     {
       "id": "1",
       "name": "Latte",
-      "image": "/Cold Drinks/.png",      
-      "color": "#E1C373",
+      "image": "/Cold Drinks/Latte.png",      
+      "color": "#D7DCF9",
       "paragraph": " ",
       "price": 2.8
     },
     {
       "id": "2",
       "name": "Cold Americano",
-      "image": "",
+      "image": "/Cold Drinks/Cold_Americano.png",      
       "color": "#E1C373",
       "paragraph": " ",
       "price": 1.6
@@ -438,7 +438,7 @@
     {
       "id": "3",
       "name": "Flat white",
-      "image": "",
+      "image": "/Cold Drinks/Flat_white.png",      
       "color": "#E1C373",
       "paragraph": " ",
       "price": 2.4
