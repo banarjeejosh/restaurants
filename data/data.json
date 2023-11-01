@@ -464,7 +464,7 @@
     {
       "id": "3",
       "name": "Sprite",
-      "image": "/Soft drinks/Sprite.png",
+      "image": "/Soft drinks/sprite1.png",
       "color": "#E1C373",
       "paragraph": " ",
       "price": 0.95
@@ -473,7 +473,7 @@
       "id": "4",
       "name": "Fanta Orange",
       "image": "/Soft drinks/Fanta_Orange.png",
-      "color": "#E0E1C373E4F9",
+      "color": "#E1C373",
       "paragraph": " ",
       "price": 0.95
     },
