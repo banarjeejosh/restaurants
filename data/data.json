@@ -3,7 +3,7 @@
   {
     "id": "1",
     "name": "Classic Chicken Burger",
-    "image": "/burger/Classic_Chicken_Burger.png",
+    "image": "/Burgers & sliders/Classic_Chicken_Burger.png",
     "color": "#E1C373",
     "paragraph": "Crispy chicken, american cheese, iceberg, pickle, mustard aioli",
     "price": 2.4
@@ -11,7 +11,7 @@
   {
     "id": "2",
     "name": "Cheese Drama Beef Burger",
-    "image": "/burger/Cheese_Drama_Beef_Burger.png",
+    "image": "/Burgers & sliders/Cheese_Drama_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef patty / lettuce / tomato / served with cheese injection",
     "price": 2.4
@@ -19,7 +19,7 @@
   {
     "id": "3",
     "name": "Black Magic Beef Burger",
-    "image": "/burger/Black_Magic_Beef_Burger.png",
+    "image": "/Burgers & sliders/Black_Magic_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef, onion rings, jalapeno, mushrooms, american cheese, spicy dynamite sauce",
     "price": 2.4
@@ -27,7 +27,7 @@
   {
     "id": "4",
     "name": "Upside Down Beef Burger",
-    "image": "/burger/Upside_Down_Beef_Burger.png",
+    "image": "/Burgers & sliders/Upside_Down_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef,portobello,provolone,rosemary mushroom cream.",
     "price": 3.2
@@ -35,7 +35,7 @@
   {
     "id": "5",
     "name": "OG Beef Burger",
-    "image": "/burger/OG_Beef_Burger.png",
+    "image": "/Burgers & sliders/OG_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef, lollo verde, pickle, onion, house sauce, american cheese",
     "price": 2.4
@@ -43,7 +43,7 @@
   {
     "id": "6",
     "name": "Double Patty Beef Burger",
-    "image": "/burger/Double_Patty_Beef_Burger.png",
+    "image": "/Burgers & sliders/Double_Patty_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Cab Double Patty, Cheese, In house Sauce, Potato Bun",
     "price": 2.4
@@ -51,7 +51,7 @@
   {
     "id": "7",
     "name": "Nashville Chicken Burger",
-    "image": "/burger/Nashville_Chicken_Burger.png",
+    "image": "/Burgers & sliders/Nashville_Chicken_Burger.png",
     "color": "#E1C373",
     "paragraph": "NASHVILLE STYLE CHICKEN BURGER / pickle / lettuce / in house sauce",
     "price": 2.4
@@ -59,7 +59,7 @@
   {
     "id": "8",
     "name": "Cheese Beef Burger",
-    "image": "/burger/Cheese_Beef_Burger.png",
+    "image": "/Burgers & sliders/Cheese_Beef_Burger.png",
     "color": "#E1C373",
     "paragraph": "Beef, mozarella, american cheese, dynamite sauce",
     "price": 2.4
@@ -67,7 +67,7 @@
   {
     "id": "9",
     "name": "Red Hood Chicken Slider",
-    "image": "/burger/Red_Hood_Chicken_Slider.png",
+    "image": "/Burgers & sliders/Red_Hood_Chicken_Slider.png",
     "color": "#E1C373",
     "paragraph": "Crispy chicken, lollo verde, jalapeno, mushroom, pepper jack cheese, argentinian chimicchuri aioli",
     "price": 1.9
@@ -75,7 +75,7 @@
   {
     "id": "10",
     "name": "Short Rib Slider",
-    "image": "/burger/Short_Rib_Slider.png",
+    "image": "/Burgers & sliders/Short_Rib_Slider.png",
     "color": "#E1C373",
     "paragraph": "Pulled Rib, BBQ Sauce, Lettuce, Pickle",
     "price": 1.9
@@ -83,7 +83,7 @@
   {
     "id": "11",
     "name": "Classic Chicken Slider",
-    "image": "/burger/Classic_Chicken_Slider.png",
+    "image": "/Burgers & sliders/Classic_Chicken_Slider.png",
     "color": "#E1C373",
     "paragraph": "Crispy chicken, american cheese, iceberg, pickle, mustard aioli",
     "price": 1.9
@@ -91,7 +91,7 @@
   {
     "id": "12",
     "name": "Old School Beef Slider",
-    "image": "/burger/Old_School_Beef_Slider.png",
+    "image": "/Burgers & sliders/Old_School_Beef_Slider.png",
     "color": "#E1C373",
     "paragraph": "Grilled Beef, house sauce, white cheddar, onion rings",
     "price": 1.9
@@ -99,7 +99,7 @@
   {
     "id": "13",
     "name": "Classic Beef Slider",
-    "image": "/burger/Classic_Beef_Slider.png",
+    "image": "/Burgers & sliders/Classic_Beef_Slider.png",
     "color": "#E1C373",
     "paragraph": "Grilled Beef, iceberg, pickle, mustard onions, american cheese, house sauce",
     "price": 1.9
@@ -227,7 +227,7 @@
     {
       "id": "5",
       "name": "Arabic Grill",
-      "image": "",
+      "image": "/Mains/Arabic_Grill.png",
       "color": "#E1C373",
       "paragraph": "2 Skewers of Chicken / Beef Kebab / Angus Beef / Hummus / Salad",
       "price": 6.8
@@ -235,7 +235,7 @@
     {
       "id": "6",
       "name": "Risotto with Rib",
-      "image": "",
+      "image": "/Mains/Risotto_with_Rib.png",
       "color": "#E1C373",
       "paragraph": "Braised short Rib, Mushroom, Truffle, Risotto",
       "price": 6.4
@@ -243,7 +243,7 @@
     {
       "id": "7",
       "name": "Short Rib Plate",
-      "image": "",
+      "image": "/Mains/Short_Rib_Plate.png",
       "color": "#E1C373",
       "paragraph": "Braised Short Rib, Cola sauce, Root Veg",
       "price": 5.9
@@ -259,7 +259,7 @@
     {
       "id": "9",
       "name": "Vibez Biryani",
-      "image": "",
+      "image": "/Mains/Vibez_Biryani.png",
       "color": "#E1C373",
       "paragraph": "Biryani Rice, Marinated Chicken, Indian Spices, Special Sauce",
       "price": 4.9
@@ -335,7 +335,7 @@
     {
       "id": "2",
       "name": "Halloumi Quinoa Salad",
-      "image": "",
+      "image": ""/salads/Halloumi_Quinoa_Salad.png"",
       "color": "#E1C373",
       "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
       "price": 6.2
@@ -370,7 +370,7 @@
     {
       "id": "3",
       "name": "Classic French Toast",
-      "image": "",
+      "image": "/Desserts/Classic_French_Toast.png",
       "color": "#E1C373",
       "paragraph": "2 slices of home made brioche served with mix berry compote and honey. Fresh fruits on side",
       "price": 4.4
@@ -531,7 +531,7 @@
     {
       "id": "3",
       "name": "7 Vibez Summer",
-      "image": "",
+      "image": "/Mocktails/7_Vibez_Summer.png",
       "color": "#E1C373",
       "paragraph": "A concoction of orange, pineapple topped with soda",
       "price": 3.7
@@ -563,7 +563,7 @@
     {
       "id": "7",
       "name": "Fresh Orange Juice",
-      "image": "",
+      "image":  "/Mocktails/Fresh_Orange_Juice.png",
       "color": "#E1C373",
       "paragraph": "Fresh Orange Juice",
       "price": 2.2
