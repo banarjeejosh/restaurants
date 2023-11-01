@@ -346,7 +346,7 @@
       "id": "1",
       "name": "Lotus Kunafa",
       "image": "/Desserts/Lotus_Kunafa.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Creamy lotus cheese cake with hint of raspberry semifredo coated in crunchy kunafa served with warm lotus sauce",
       "price": 4.2
     },
@@ -354,7 +354,7 @@
       "id": "2",
       "name": " Date Cake",
       "image": "/Desserts/Date_Cake.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Sticky date cakes baked in toffee sauce topped with roasted pecan-nut ,served with vanilla beans gelato",
       "price": 3.9
     },
@@ -362,7 +362,7 @@
       "id": "3",
       "name": "Classic French Toast",
       "image": "/Desserts/Classic_French_Toast.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "2 slices of home made brioche served with mix berry compote and honey. Fresh fruits on side",
       "price": 4.4
     },
@@ -370,7 +370,7 @@
       "id": "4",
       "name": "Saffron Milk Cake",
       "image": "/Desserts/Saffron_Milk_Cake.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Overnight soaked saffron cake topped with fresh vanilla cream , served with fresh berries",
       "price": 3.4
     },
@@ -378,7 +378,7 @@
       "id": "5",
       "name": "Donut Chocolate Tower",
       "image": "/Desserts/Donut_Chocolate_Tower.png",
-      "color": "#E1C373",
+      "color": "#FDE3E6",
       "paragraph": "Chocolate peanut ice cream topped on a chocolate vanilla ice cream sandwich served with Belgium chocolate sauce",
       "price": 6.1
     }
