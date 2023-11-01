@@ -75,7 +75,7 @@
   {
     "id": "10",
     "name": "Short Rib Slider",
-    "image": "/Burgers/placeholder.png",
+    "image": "/Burgers/Short_Rib_Slider.png",
     "color": "#E1C373",
     "paragraph": "Pulled Rib, BBQ Sauce, Lettuce, Pickle",
     "price": 1.9
@@ -235,7 +235,7 @@
     {
       "id": "6",
       "name": "Risotto with Rib",
-      "image": "/Mains/placeholder.png",
+      "image": "/Mains/Risotto_with_Rib.png",
       "color": "#E1C373",
       "paragraph": "Braised short Rib, Mushroom, Truffle, Risotto",
       "price": 6.4
@@ -326,11 +326,11 @@
   "salads": [
     {
       "id": "1",
-      "name": "Cilantro Chicken Salad",
-      "image": "/salads/Cilantro_Chicken_Salad.png",
+      "name": "Halloumi Quinoa Salad",
+      "image": "/salads/Halloumi_Quinoa_Salad.png",
       "color": "#E1C373",
-      "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
-      "price": 3.6
+      "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
+      "price": 6.2
     },
     {
       "id": "2",
@@ -343,11 +343,11 @@
 
     {
       "id": "3",
-      "name": "Halloumi Quinoa Salad",
-      "image": "",
+      "name": "Cilantro Chicken Salad",
+      "image": "/salads/placeholder.png",
       "color": "#E1C373",
-      "paragraph": "Mesclun, mix quinoa, Grilled halloumi, pomegranate molasses, sunflower seeds, baby spinach, radicchio",
-      "price": 6.2
+      "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
+      "price": 3.6
     }
   ],
   "desserts": [
