@@ -388,24 +388,24 @@
     {
       "id": "1",
       "name": "Expresso",
-      "image": "",
-      "color": "#E1C373",
+      "image": "/Hot Drinks/Expresso.png",      
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 1.4
     },
     {
       "id": "2",
       "name": "Americano",
-      "image": "",
-      "color": "#E1C373",
+      "image": "/Hot Drinks/Americano.png",      
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 1.6
     },
     {
       "id": "3",
       "name": "Piccolo",
-      "image": "",
-      "color": "#E1C373",
+      "image": "/Hot Drinks/Piccolo.png",      
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 1.9
     },
@@ -413,7 +413,7 @@
       "id": "4",
       "name": "Arabic Coffee",
       "image": "",
-      "color": "#E1C373",
+      "color": "#FFEDD2",
       "paragraph": " ",
       "price": 3.7
     }
