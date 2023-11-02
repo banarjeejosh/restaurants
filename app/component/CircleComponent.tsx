@@ -6,7 +6,15 @@ import MenuItem from "./MenuItem";
 import CirclePointer from "./CirclePointer";
 import BottomNav from "./BottomNav";
 
-const CircleComponent = ({ items: testItem }: any) => {
+interface CircleComponentProps {
+  items: any;
+  food?: string | null;
+}
+
+const CircleComponent: React.FC<CircleComponentProps> = ({
+  items: testItem,
+  food,
+}) => {
   let items = [...testItem, ...testItem, ...testItem];
   items = items.map((item: any, index: number) => {
     return { ...item, id: index.toString() };
@@ -14,6 +22,13 @@ const CircleComponent = ({ items: testItem }: any) => {
 
   const [centerIndex, setCenterIndex] = useState(0);
   const [animationQueue, setAnimationQueue] = useState<number[]>([]);
+
+  useEffect(() => {
+    if (food) {
+      const index = items.findIndex((item) => item.link === food);
+      setCenterIndex(index);
+    }
+  }, [food]);
 
   const initialX = useRef(null);
 

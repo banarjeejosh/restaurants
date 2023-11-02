@@ -15,7 +15,9 @@
   overflow-x: hidden;
   transition: transform 0.5s ease-in-out;
 }
-
+#color-changing-svg {
+  filter: drop-shadow(3px 3px 0 var(--shadow-color)); /* Use a CSS variable for the color */
+}
 /* Default styles for non-mobile devices */
 /* .screenSize {
   height: 79vh;
