@@ -27,7 +27,7 @@ const items: MenuItem[] = [
     image: "/burger.png",
     link: "/burger",
     itemsCount: 13,
-    color: "#D7DCF9",
+    color: "#FFEDD2",
   },
   {
     id: "1",
@@ -35,7 +35,7 @@ const items: MenuItem[] = [
     image: "/appetizers.png",
     link: "/appetizers",
     itemsCount: 5,
-    color: "#FFEDD2",
+    color: "#D7DCF9",
   },
   {
     id: "2",
