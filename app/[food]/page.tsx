@@ -1,12 +1,29 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useCallback } from "react";
 import CircleComponent from "../component/CircleComponent";
 import Fooditems from "@/data/data.json";
 import Link from "next/link";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 export default function Page({ params }: { params: { food: string } }) {
   // return <div>My Post: {params.food}</div>;
   const food = params.food;
   const items = Fooditems[food as keyof typeof Fooditems];
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams()!;
+
+  // Get a new searchParams string by merging the current
+  // searchParams with a provided key/value pair
+  const createQueryString = useCallback(
+    (name: string, value: string) => {
+      const params = new URLSearchParams(searchParams);
+      params.set(name, value);
+
+      return params.toString();
+    },
+    [searchParams]
+  );
 
   return (
     <div className="relative flex flex-col justify-between align-middle items-center mainPage">
@@ -53,7 +70,11 @@ export default function Page({ params }: { params: { food: string } }) {
           </div>
         </div>
         <Link
-          href="/"
+          // href="/?food=appetizers"
+          href={
+            // <pathname>?sort=desc
+            "/" + "?" + createQueryString("food", "/" + params.food)
+          }
           className=" absolute left-1 lg:left-4 lg:top-16 scale-50 lg:scale-[1]"
         >
           <svg
@@ -85,9 +106,9 @@ export default function Page({ params }: { params: { food: string } }) {
                 width="78"
                 height="78"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"

@@ -1,8 +1,18 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import HalfCircleCarousel from "./component/HalfCircleCarousel";
+import { useSearchParams } from "next/navigation";
 
 const HomePage: React.FC = () => {
+  const searchParams = useSearchParams();
+
+  const food: string | null = searchParams.get("food");
+  const [search, setSearch] = React.useState<string | null>(null);
+
+  React.useEffect(() => {
+    setSearch(food);
+  }, [food, setSearch]);
   // The items you want to display in the carousel
 
   return (
@@ -52,7 +62,7 @@ const HomePage: React.FC = () => {
       </div>
 
       <div className="screenSize w-full overflow-hidden flex grow justify-end align-baseline items-end ">
-        <HalfCircleCarousel />
+        <HalfCircleCarousel search={search} />
       </div>
       {/* Other components */}
     </div>
