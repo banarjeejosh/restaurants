@@ -583,5 +583,30 @@
       "paragraph": "mint ,lemon and soda.",
       "price": 1.9
     }
-  ]
+  ],
+  "Tea": [
+    {
+      "id": "1",
+      "name": "Hubiscus Tea",
+      "image": "/Tea/Hubiscus_tea.png",      
+      "color": "#D7DCF9",
+      "paragraph": " ",
+      "price": 2.6
+    },
+    {
+      "id": "2",
+      "name": "Karak Tea",
+      "image": "/Tea/Karak_Tea.png",      
+      "color": "#D7DCF9",
+      "paragraph": " ",
+      "price": 0.90
+    },
+    {
+      "id": "3",
+      "name": "Oriental Moments",
+      "image": "/Tea/Oriental_Moments.png",      
+      "color": "#D7DCF9",
+      "paragraph": " ",
+      "price": 2.4
+    }
 }
