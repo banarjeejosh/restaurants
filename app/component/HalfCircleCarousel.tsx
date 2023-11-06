@@ -126,7 +126,7 @@ const items: MenuItem[] = [
     image: "/Tea.png",
     link: "/Tea",
     itemsCount:3,
-    color: "#FDE0E4",
+    color: "#D7DCF9",
   }
 ];
 
