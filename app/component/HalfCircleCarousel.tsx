@@ -124,10 +124,10 @@ const items: MenuItem[] = [
     id: "12",
     name: "Tea",
     image: "/Tea.png",
-    link: "/mocktails",
-    itemsCount: 10,
+    link: "/Tea",
+    itemsCount:3,
     color: "#FDE0E4",
-  },
+  }
 ];
 
 const HalfCircleCarousel: React.FC<HalfCircleCarouselProps> = ({ search }) => {
