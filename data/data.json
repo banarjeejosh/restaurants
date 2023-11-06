@@ -538,7 +538,7 @@
     {
       "id": "5",
       "name": "Mangonada",
-      "image": "",
+      "image": "/Mocktails/Mangonada.png",
       "color": "#FDE3E6",
       "paragraph": "Mango juice ,pineapple and coconut",
       "price": 2.4
@@ -562,7 +562,7 @@
     {
       "id": "8",
       "name": "Passion Mojito",
-      "image": "",
+      "image":  "/Mocktails/Passion_Mojito.png",
       "color": "#FDE3E6",
       "paragraph": "Passion, mint ,lemon and soda.",
       "price": 2.9
@@ -570,7 +570,7 @@
     {
       "id": "9",
       "name": "Strawberry Mojito",
-      "image": "",
+      "image":  "/Mocktails/Strawberry_Mojito.png",
       "color": "#FDE3E6",
       "paragraph": "Strawberry ,mint ,lemon and soda",
       "price": 2.9
