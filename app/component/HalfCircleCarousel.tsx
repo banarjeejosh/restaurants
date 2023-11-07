@@ -27,7 +27,7 @@ const items: MenuItem[] = [
     image: "/burger.png",
     link: "/burger",
     itemsCount: 13,
-    color: "#FFEDD2",
+    color: "#D6B969",
   },
   {
     id: "1",
@@ -35,7 +35,7 @@ const items: MenuItem[] = [
     image: "/appetizers.png",
     link: "/appetizers",
     itemsCount: 5,
-    color: "#D7DCF9",
+    color: "#D6B969",
   },
   {
     id: "2",
@@ -43,7 +43,7 @@ const items: MenuItem[] = [
     image: "/on_the_oven.png",
     link: "/on_the_oven",
     itemsCount: 3,
-    color: "#FDE0E4",
+    color: "#D6B969",
   },
   {
     id: "3",
@@ -52,7 +52,7 @@ const items: MenuItem[] = [
     image: "/soups.png",
     link: "/soups",
     itemsCount: 2,
-    color: "#FFEDD2",
+    color: "#D6B969",
   },
   {
     id: "4",
@@ -60,7 +60,7 @@ const items: MenuItem[] = [
     image: "/mains.png",
     link: "/mains",
     itemsCount: 9,
-    color: "#D7DCF9",
+    color: "#D6B969",
   },
   {
     id: "5",
@@ -68,7 +68,7 @@ const items: MenuItem[] = [
     image: "/fries.png",
     link: "/fries",
     itemsCount: 7,
-    color: "#FDE0E4",
+    color: "#D6B969",
   },
   {
     id: "6",
@@ -76,7 +76,7 @@ const items: MenuItem[] = [
     image: "/soft_drinks.png",
     link: "/soft_drinks",
     itemsCount: 7,
-    color: "#FFEDD2",
+    color: "#D6B969",
   },
 
   {
@@ -85,7 +85,7 @@ const items: MenuItem[] = [
     image: "/salads.png",
     link: "/salads",
     itemsCount: 2,
-    color: "#D7DCF9",
+    color: "#D6B969",
   },
   {
     id: "8",
@@ -93,7 +93,7 @@ const items: MenuItem[] = [
     image: "/desserts.png",
     link: "/desserts",
     itemsCount: 5,
-    color: "#FDE0E4",
+    color: "#D6B969",
   },
   {
     id: "9",
@@ -101,7 +101,7 @@ const items: MenuItem[] = [
     image: "/hot_drinks.png",
     link: "/hot_drinks",
     itemsCount: 4,
-    color: "#FFEDD2",
+    color: "#D6B969",
   },
   {
     id: "10",
@@ -109,7 +109,7 @@ const items: MenuItem[] = [
     image: "/cold_drinks.png",
     link: "/cold_drinks",
     itemsCount: 3,
-    color: "#D7DCF9",
+    color: "#D6B969",
   },
 
   {
@@ -118,7 +118,7 @@ const items: MenuItem[] = [
     image: "/mocktails.png",
     link: "/mocktails",
     itemsCount: 10,
-    color: "#FDE0E4",
+    color: "#D6B969",
   },
   {
     id: "12",
@@ -126,7 +126,7 @@ const items: MenuItem[] = [
     image: "/Tea.png",
     link: "/Tea",
     itemsCount:3,
-    color: "#D7DCF9",
+    color: "#D6B969",
   }
 ];
 
