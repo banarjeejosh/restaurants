@@ -416,6 +416,62 @@
       "color": "#D6B969",
       "paragraph": " ",
       "price": 3.7
+    },
+    {
+      "id": "5",
+      "name": "Cortado",
+      "image": "/Hot Drinks/Cortado.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 1.9
+    },
+    {
+      "id": "6",
+      "name": "Latte",
+      "image": "/Hot Drinks/Latte.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 1.9
+    },
+    {
+      "id": "7",
+      "name": "Spanish Latte",
+      "image": "/Hot Drinks/Spanish_Latte.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 1.9
+    },
+    {
+      "id": "8",
+      "name": "Saffron Latte",
+      "image": "/Hot Drinks/Saffron_Latte.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 1.9
+    },
+    {
+      "id": "8",
+      "name": "Flat White",
+      "image": "/Hot Drinks/Flat_White.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 1.9
+    },
+    {
+      "id": "9",
+      "name": "Affogato",
+      "image": "/Hot Drinks/placeholder.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 1.9
+    },
+    {
+      "id": "10",
+      "name": "Cappuccino",
+      "image": "/Hot Drinks/Cappuccino.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 1.9
     }
   ],
   "cold_drinks": [
@@ -442,8 +498,24 @@
       "color": "#D6B969",
       "paragraph": " ",
       "price": 2.4
+    },
+    {
+      "id": "4",
+      "name": "Spanish latte",
+      "image": "/Cold Drinks/Spanish_latte.png",      
+      "color": "#D6B969",
+      "paragraph": " ",
+      "price": 2.4
+    },
+    {
+    "id": "5",
+    "name": "Saffron Latte",
+    "image": "/Cold Drinks/Saffron_Latte.png",      
+    "color": "#D6B969",
+    "paragraph": " ",
+    "price": 2.4
     }
-  ],
+],
   "soft_drinks": [
     {
       "id": "1",
