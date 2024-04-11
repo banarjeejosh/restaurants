@@ -26,7 +26,7 @@ const items: MenuItem[] = [
     name: `Burgers <span class="text-base">&</span> Sliders`,
     image: "/burger.png",
     link: "/burger",
-    itemsCount: 13,
+    itemsCount: 17,
     color: "#D6B969",
   },
   {
