@@ -103,6 +103,14 @@
     "color": "#D6B969",
     "paragraph": "Grilled Beef, iceberg, pickle, mustard onions, american cheese, house sauce",
     "price": 1.9
+  },
+    {
+    "id": "14",
+    "name": "Standard",
+    "image": "/Burgers/Classic_Beef_Slider.png",
+    "color": "#D6B969",
+    "paragraph": "Angus , special sauce , bacon jam , cheese , caramelized onions",
+    "price": 2.4
   }
 ],
   "appetizers": [
