@@ -111,7 +111,32 @@
     "color": "#D6B969",
     "paragraph": "Angus , special sauce , bacon jam , cheese , caramelized onions",
     "price": 2.4
+  },
+    {
+    "id": "15",
+    "name": "Pitmaster",
+    "image": "/placeholder.png",
+    "color": "#D6B969",
+    "paragraph": "Angus double patty , maple glazed beef bacon , smoky bbq ranch , cheese , fried onion rings",
+    "price": 3.2
+  },
+  {
+    "id": "16",
+    "name": "C4",
+    "image": "/placeholder.png",
+    "color": "#D6B969",
+    "paragraph": "Cheesy crunchy chicken croissant with chili garlic aioli",
+    "price": 2.9
+  },
+   {
+    "id": "17",
+    "name": "Mango jalapeno chicken",
+    "image": "/placeholder.png",
+    "color": "#D6B969",
+    "paragraph": "Crispy chicken,mango jalapeno aioli,fried jalapeno,cheese",
+    "price": 2.4
   }
+  
 ],
   "appetizers": [
     {
