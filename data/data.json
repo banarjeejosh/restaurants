@@ -178,6 +178,14 @@
       "color": "#D6B969",
       "paragraph": "Crispy Shrimps, buffalo style wing sauce dipping, ranch",
       "price": 4.5
+    },
+        {
+      "id": "6",
+      "name": "Mushroom nibbles",
+      "image": "/placeholder.png",
+      "color": "#D6B969",
+      "paragraph": "",
+      "price": 3.9
     }
   ],
   "on_the_oven": [
@@ -372,6 +380,14 @@
       "color": "#D6B969",
       "paragraph": "Romaine, mesclun, sundried tomato, sunflower seed, sweet corn, cilantro vinaigrette, grilled chicken strips",
       "price": 3.6
+    },
+        {
+      "id": "3",
+      "name": "Goat cheese salad",
+      "image": "/placeholder.png",
+      "color": "#D6B969",
+      "paragraph": "",
+      "price": 4.9
     }
   ],
   "desserts": [
